@@ -30,27 +30,27 @@
         xmlns:xlink="http://www.w3.org/1999/xlink"
         xsi:noNamespaceSchemaLocation="../../../../../../../schema-labels.xsd">
   <element name="gco:Distance">
-    <label>Distance</label>
-    <description>Distance</description>
+    <label>Distancia</label>
+    <description>Distancia</description>
     <condition></condition>
   </element>
   <element name="gco:Length">
-    <label>Length</label>
-    <description>Length</description>
+    <label>Longitud</label>
+    <description>Longitud</description>
     <condition></condition>
   </element>
   <element name="gco:Angle">
-    <label>Angle</label>
-    <description>Angle</description>
+    <label>Ángulo</label>
+    <description>Ángulo</description>
     <condition></condition>
   </element>
   <element name="gco:Measure">
-    <label>Measure</label>
-    <description>Measure</description>
+    <label>Medida</label>
+    <description>Medida</description>
     <condition></condition>
   </element>
   <element name="gml:PointType">
-    <label>Point type</label>
+    <label>Caracteristica del Punto</label>
     <description></description>
     <condition></condition>
   </element>
@@ -60,134 +60,134 @@
     <condition></condition>
   </element>
   <element name="msr:MD_PixelOrientationCode">
-    <label>Pixel orientation code</label>
-    <description>Point in a pixel corresponding to the Earth location of the
-      pixel
+    <label>Codigo de orientacion el pixel</label>
+    <description> Punto en un pixel corresponde a un la localizacion de un pixel en la tierra
     </description>
     <condition></condition>
   </element>
   <element name="lan:MD_CharacterSetCode">
-    <label>Character set code</label>
-    <description>Use IANA Character Set register:
-      http://www.iana.org/assignments/character-sets. These are the official
-      names for character sets that may be used in the Internet and may be
-      referred to in Internet documentation. These names are expressed in
-      ANSI_X3.4-1968 which is commonly called US-ASCII or simply ASCII.
+    <label>Conjunto de caracteres del codigo</label>
+    <description>Utilizar Registro IANA set de caracteres:
+     http://www.iana.org/assignments/character-sets. 
+     Estos son los sets de nombres de caracteres oficiales 
+     que pueden ser usados en internet y pueden 
+     referirse en la documentacion de internet. Estos nombres fueron expresados 
+     en ANSI_X3.4-1968 donde comunmente se llaman US-ASCII or simply ASCII.
     </description>
     <condition></condition>
   </element>
   <element name="mdb:acquisitionInformation">
-    <label>Acquisition information</label>
+    <label>Información de adquisición</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:MI_AcquisitionInformation">
-    <label>Acquisition information</label>
+    <label>Información de adquisición</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:instrument">
-    <label>Instrument</label>
+    <label>Instrumento</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:operation">
-    <label>Operation</label>
+    <label>Operacion</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:platform">
-    <label>Platform</label>
+    <label>Plataforma</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:acquisitionPlan">
-    <label>Acquisition plan</label>
+    <label>Plan de adquisición</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:objective">
-    <label>Objective</label>
+    <label>Objectivo</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:acquisitionRequirement">
-    <label>Acquisition requirement</label>
+    <label>Requerimientos de adquisición</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:environmentalConditions">
-    <label>Environmental conditions</label>
+    <label>Condiciones ambientales</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:averageAirTemperature">
-    <label>Air temperature average</label>
+    <label>Promedio de la temperatura del aire</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:maxRelativeHumidity">
-    <label>Maximum of relative humidity</label>
+    <label>Máxima de humedad relativa</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:maxAltitude">
-    <label>Maximum altitude</label>
+    <label>Altitud Máxima</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:meterologicalConditions">
-    <label>Meterological conditions</label>
+    <label>Condiciones Meteorologicas</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:MI_Instrument">
-    <label>Instrument</label>
+    <label>Instrumento</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:citation">
-    <label>Citation</label>
+    <label>Cita</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:identifier">
-    <label>Identifier</label>
+    <label>Identificador</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:type">
-    <label>Type</label>
+    <label>Tipo</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:description">
-    <label>Description</label>
+    <label>Descripcion</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:mountedOn">
-    <label>Mounted on</label>
+    <label>Montado en</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:MI_Requirement">
-    <label>Requirement</label>
+    <label>Requerimiento</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:recipient">
-    <label>Recipient</label>
+    <label>Destinatario</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:requestor">
-    <label>Requestor</label>
+    <label>Solicitante</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:prority">
-    <label>Prority</label>
+    <label>Proridad</label>
     <description></description>
     <condition></condition>
   </element>
@@ -197,36 +197,36 @@
     <condition></condition>
   </element>
   <element name="mac:MI_RequestedDate">
-    <label>Requested date</label>
+    <label>Fecha Solicitada</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:requestedDateOfCollection">
-    <label>Requested date of collection</label>
+    <label>Fecha solicitada de colección</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:latestAcceptableDate">
-    <label>Latest acceptable date</label>
+    <label>Última fecha aceptable</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:expiryDate">
-    <label>Expiry date</label>
+    <label>Fecha de caducidad</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="mac:satisifiedPlan">
-    <label>Satisified plan</label>
+    <label>Plan Satisfecho</label>
     <description></description>
     <condition></condition>
   </element>
   <element name="gml:BaseUnit">
-    <label>Base unit</label>
+    <label>Unidad de base</label>
     <description></description>
   </element>
   <element name="gml:quantityType">
-    <label>Quantity type</label>
+    <label>Tipo de cantidad</label>
     <description></description>
   </element>
   <element name="gml:quantityTypeReference">
@@ -905,11 +905,11 @@
     </description>
   </element>
   <element name="mdb:defaultLocale" id="17.0">
-    <label>Default locale</label>
-    <description iso="true">Language and character set used for documenting
-      metadata
+    <label>Default local</label>
+    <description iso="true">Lenguaje y caracter usado para documentar el 
+    metadato
     </description>
-    <_condition>C / not defined by encoding and UTF-8 not used?</_condition>
+    <_condition>C / no definido por la codificación y no utilizar UTF-8?</_condition>
   </element>
   <element name="mdb:parentMetadata" id="18.0">
     <label>Parent metadata</label>
@@ -1233,33 +1233,31 @@
     <_condition></_condition>
   </element>
   <element name="cit:CI_Organisation" id="385.0">
-    <label>Organisation</label>
-    <description iso="true">Class of information about the party if the party is
-      an organization
+    <label>Organizacion</label>
+    <description iso="true">Clase de información sobre la parte, si la misma es una organización
     </description>
   </element>
   <element name="cit:CI_Responsibility" id="376.0">
-    <label>Responsibility</label>
-    <description iso="true">Class of information about the party and their
-      role
+    <label>Responsabilidad</label>
+    <description iso="true">Clase de informacion acerca de la parte responsable y su rol 
     </description>
   </element>
   <element name="cit:role" id="377.0" context="cit:CI_Responsibility">
-    <label>Role</label>
-    <description>Function performed by the responsible party</description>
-    <condition>mandatory</condition>
+    <label>Rol</label>
+    <description>Función realizada por el responsable</description>
+    <condition>Obligatorio</condition>
   </element>
   <element name="cit:party" id="379.0" context="cit:CI_Responsibility">
-    <label>Party</label>
-    <description iso="true">Information about the party</description>
+    <label>Parte</label>
+    <description iso="true">Informacion acerca de la parte</description>
   </element>
   <element name="cit:extent" id="378.0" context="cit:CI_Responsibility">
-    <label>Extent</label>
-    <description iso="true">Spatial or temporal extent of the role</description>
+    <label>Extencion</label>
+    <description iso="true">Extensión espacial o temporal de la función</description>
   </element>
   <element name="lan:language" id="448.0">
-    <label>Language</label>
-    <description iso="true">Designation of the locale language</description>
+    <label>Lenguaje</label>
+    <description iso="true">Designacion de la lengua local</description>
   </element>
   <element name="cit:presentationForm" id="369.0">
     <label>Presentation form</label>
@@ -1293,25 +1291,25 @@
     <condition/>
   </element>
   <element name="cit:onlineResource" id="398.0" context="cit:CI_Contact">
-    <label>Online resource</label>
-    <description iso="true">On-line information that can be used to contact the
-      individual or organisation
+    <label>Rescursos online</label>
+    <description iso="true">Información online que puede utilizarse en contacto
+    con el individuo u organización
     </description>
     <help/>
     <condition/>
   </element>
   <element name="cit:phone" id="396.0">
-    <label>Telephone</label>
-    <description iso="true">Telephone numbers at which the organisation or
-      individual may be contacted
+    <label>Telefono</label>
+    <description iso="true">Teléfonos en los que la organización o individuo 
+    puede contactarse
     </description>
     <help/>
     <condition/>
   </element>
   <element name="cit:number" id="418.0">
-    <label>Number</label>
-    <description iso="true">Telephone number by which individuals can contact
-      responsible organisation or individual
+    <label>Numero</label>
+    <description iso="true">Número de teléfono por el cual pueden comunicarse con personas 
+    organización responsable o individuo
     </description>
     <help/>
     <condition/>
@@ -1329,8 +1327,8 @@
     <condition/>
   </element>
   <element name="cit:numberType" id="419.0">
-    <label>Number type</label>
-    <description iso="true">Type of telephone number</description>
+    <label>Tipo de numero</label>
+    <description iso="true">Tipo de numero telefonico</description>
     <help/>
     <condition/>
   </element>
@@ -1448,9 +1446,9 @@
     <_condition>Use obligation/condition from referencing object</_condition>
   </element>
   <element name="cit:CI_Telephone" id="417.0">
-    <label>Telephone</label>
-    <description>Telephone numbers for contacting the responsible individual or
-      organization
+    <label>Telefono</label>
+    <description>Números de teléfono para ponerse en contacto con 
+     la persona responsable u Organización
     </description>
     <_condition>Use obligation/condition from referencing object</_condition>
   </element>
@@ -1744,8 +1742,8 @@
     </description>
   </element>
   <element name="mcc:MD_Identifier" id="431.0">
-    <label>Identifier</label>
-    <description>Value uniquely identifying an object within a namespace
+    <label>Identificador</label>
+    <description>identificador de versión del espacio de nombres
     </description>
   </element>
   <element name="mrc:MD_ImageDescription" id="243.0">
@@ -2114,11 +2112,11 @@
     <condition>mandatory</condition>
   </element>
   <element name="mcc:code" id="433.0">
-    <label>Code</label>
-    <description>Alphanumeric value identifying an instance in the namespace
-    </description>
-    <description iso="true">Alphanumeric value identifying an instance in the
-      namespace. NOTE Avoid characters that are not legal in URLs. EXAMPLE
+    <label>Codigo</label>
+    <description>Valor alfanumérico que identifica una instancia en el espacio de nombres
+    </description
+    <description iso="true">Valor alfanumérico que identifica una instancia 
+    en el espacio de nombres. Nota Evite los caracteres que no son legales en direcciones URL.EJEMPLO
       EPSG::4326
     </description>
     <condition>mandatory</condition>
@@ -2180,9 +2178,9 @@
     <condition>mandatory</condition>
   </element>
   <element name="mdb:contact" id="19.0">
-    <condition>mandatory</condition>
-    <label>Contact</label>
-    <description>Party responsible for the metadata information</description>
+    <condition>obligatorio</condition>
+    <label>Contacto</label>
+    <description>Parte responsable de la informacion del matadato</description>
   </element>
   <element name="mmi:contact" id="148.1"
            context="mmi:MD_MaintenanceInformation">
@@ -2198,8 +2196,8 @@
     <condition>mandatory</condition>
   </element>
   <element name="cit:contactInfo" id="378.0">
-    <description>Address of the responsible party</description>
-    <label>Contact Information</label>
+    <description>Direccion de la parte responsable</description>
+    <label>Informacion de contacto</label>
   </element>
   <element name="cit:contactInstructions" id="392.0">
     <label>Contact instructions</label>
@@ -2258,8 +2256,8 @@
     <condition>optional</condition>
   </element>
   <element name="lan:country" id="449.0" context="lan:PT_Locale">
-    <label>Country</label>
-    <description>Designation of the specific country of the locale language
+    <label>Pais</label>
+    <description>Designación del país de la lengua local
     </description>
     <condition>optional</condition>
   </element>
@@ -2792,8 +2790,8 @@
     <description>Text description of the illustration</description>
   </element>
   <element name="mdb:metadataIdentifier" id="2.0">
-    <label>Metadata identifier</label>
-    <description>Unique identifier for this metadata file</description>
+    <label>Identificador de Metadato</label>
+    <description>Identificador único para este archivo de metadatos</description>
   </element>
   <element name="mcc:fileName" id="438.0">
     <label>File name</label>
@@ -3220,14 +3218,13 @@
     <condition>mandatory</condition>
   </element>
   <element name="cit:name" context="cit:CI_OnlineResource" id="409.0">
-    <label>Name of the resource</label>
-    <description>Name of the online resource</description>
+    <label>Nombre del recurso</label>
+    <description>Nombre del recurso online</description>
   </element>
   <element name="cit:name" context="cit:CI_Series" id="414.0">
-    <label>Name</label>
-    <description>Name of the series, or aggregate dataset, of which the dataset
-      is a
-      part
+    <label>Nombre</label>
+    <description>Nombre de la serie o conjunto de datos agregados, 
+    de los cuales el conjunto de datos es un parte
     </description>
   </element>
   <element name="mri:name" context="mri:MD_CodeDomain" id="537.0">
@@ -3247,7 +3244,7 @@
     <description>Role name</description>
   </element>
   <element name="cit:name">
-    <label>Name</label>
+    <label>Nombre</label>
     <description/>
   </element>
   <element name="mri:nameOfMeasure" id="100.0">
@@ -4036,8 +4033,8 @@
     <condition>mandatory</condition>
   </element>
   <element name="cit:role" id="566.0" context="mri:MD_Association">
-    <label>Role</label>
-    <description>Reference to the ends (roles) of a concrete association
+    <label>Funcion</label>
+    <description>Referencia a los extremos (funciones) de una asociación concreta
     </description>
   </element>
   <element name="mri:rule" id="317.0">
@@ -4562,7 +4559,7 @@
   </element>
   <element name="mcc:version" id="208.2" context="mcc:MD_Identifier">
     <label>Version</label>
-    <description>version identifier for the namespace</description>
+    <description>identificador de versión del espacio de nombres</description>
   </element>
   <element name="mri:version" id="286.0">
     <label>Version</label>
@@ -5082,8 +5079,8 @@
     <description>Language code</description>
   </element>
   <element name="lan:characterEncoding">
-    <label>Character encoding</label>
-    <description>CharacterEncoding</description>
+    <label>Codificacion de caracteres</label>
+    <description>Codificacion de caracteres</description>
   </element>
   <element name="uuidref">
     <label>Metadata uuid</label>
@@ -5207,7 +5204,7 @@
     </description>
   </element>
   <element name="gco:CharacterString">
-    <label>Text</label>
+    <label>Texto</label>
     <description/>
   </element>
   <element name="gco:nilReason">
