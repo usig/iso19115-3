@@ -1725,8 +1725,8 @@
     <label>Informacion de la extension del metadato</label>
   </element>
   <element name="mpc:MD_PortrayalCatalogueReference" id="268.0">
-    <label>Portrayal catalogue reference</label>
-    <description>Information identifying the portrayal catalogue used
+    <label>Referencia de la representacion del portal</label>
+    <description>Informacion que identifica a la referencia del catalogo utilizada
     </description>
   </element>
   <element name="mrc:MD_RangeDimension" id="256.0">
@@ -1740,50 +1740,44 @@
     <help>Informacion acerca del Sistema de Referencia</help>
   </element>
   <element name="mri:MD_RepresentativeFraction" id="56.0">
-    <label>Representative fraction</label>
-    <description>Derived from Scale where MD_RepresentativeFraction.denominator
-      = 1 /
-      Scale.measure And Scale.targetUnits = Scale.sourceUnits
+    <label>Fraccion representativa</label>
+    <description>Derivado de  Scale where MD_RepresentativeFraction.denominator= 1 /
+      Scale.measure y Scale.targetUnits = Scale.sourceUnits
     </description>
   </element>
   <element name="mri:MD_Resolution" id="59.0">
     <label>Resolucion</label>
-    <description>Level of detail expressed as a scale factor or a ground
-      distance
+    <description>Nivel de detalle expresado como factor de escala o una distancia del suelo
     </description>
   </element>
   <element name="mcc:MD_ScopeDescription" id="149.0">
     <label>Descipcion del alcance</label>
-    <description>Description of the class of information covered by the
-      information
+    <description>Descripcion de la clase de informacion cubierto por la informacion
     </description>
-    <condition>Either attributes, features, featureInstances,
-      attributeInstnaces, dataset or other must be provided
+    <condition>Cualquier atributo, caracteristica, instancia de la caracteristica,
+     instancia del atributo, conjunto de datos u otros deben ser promovidos 
     </condition>
   </element>
   <element name="mcc:MD_ScopeDescription_Type" id="149.0">
     <label>Descipcion del alcance</label>
-    <description>Description of the class of information covered by the
-      information
+    <description>Descripcion de la clase de informacion cubierto por la informacion
     </description>
-    <condition>Either attributes, features, featureInstances,
-      attributeInstnaces, dataset or other must be provided
+    <condition>Cualquier atributo, caracteristica, instancia de la caracteristica,
+     instancia del atributo, conjunto de datos u otros deben ser promovidos
     </condition>
   </element>
   <element name="mco:MD_SecurityConstraints" id="73.0">
-    <label>Security constraints</label>
-    <description>Handling restrictions imposed on the resource or metadata for
-      national security
-      or similar security concerns
+    <label>Restricciones de seguridad</label>
+    <description>Manejo de las restricciones impuestas al recurso o metadato
+     para la seguridad nacional o problemas de seguridad similares
     </description>
   </element>
   <element name="mri:MD_ServiceIdentification" id="47.0">
     <label>Service Identification</label>
-    <description>Identification of capabilities which a service provider makes
-      available to a
-      service user through a set of interfaces that define a behaviour - See ISO
-      19119 -
-      Services for further information
+    <description>Identificación de las capacidades que un proveedor de servicios
+      pone a disposición de un usuario del servicio a través de un conjunto de 
+     interfaces que definen un comportamiento.
+     Consulte ISO 19119 - Servicios para obtener más información. 
     </description>
   </element>
   <element name="mrd:MD_StandardOrderProcess" id="298.0">
@@ -2991,7 +2985,7 @@
       data specified by
       the scope
     </description>
-    <_condition>Conditional / report not provided?</_condition>
+    <_condition>Condiional / reporte no proporcionado?</_condition>
   </element>
   <element name="cit:linkage" id="406.0">
     <label>Linkage</label>
@@ -3891,28 +3885,27 @@
   </element>
 
   <element name="mdq:report" id="80.0">
-    <label>Report</label>
+    <label>Reporte</label>
     <description>Quantitative quality information for the data specified by the
       scope
     </description>
-    <condition>conditional</condition>
+    <condition>condicional</condition>
   </element>
   <element name="mrl:resolution" id="182.0">
     <label>Resolucion</label>
-    <description>Grado de detalle en el dataset de la cuadricula</description>
+    <description>Grado de detalle en el conjunto de datos de la cuadricula</description>
   </element>
   <element name="mri:vertical">
-    <label>Vertical sampling distance</label>
-    <description>Vertical sampling distance</description>
+    <label>Distancia de muestreo vertical</label>
+    <description>Distancia de muestreo vertical</description>
   </element>
   <element name="mri:angularDistance">
-    <label>Angular sampling measure</label>
-    <description>Angular sampling measure</description>
+    <label>Medida de muestreo angular</label>
+    <description>Medida de muestreo angular</description>
   </element>
   <element name="mri:levelOfDetail">
-    <label>Level of detail</label>
-    <description>Brief textual description of the spatial resolution of the
-      resource
+    <label>Nivel de detalle</label>
+    <description>Breve descripción textual de la resolución espacial del recurso
     </description>
   </element>
   <element name="mri:MD_Resolution_Type">
@@ -3920,9 +3913,8 @@
     <description/>
   </element>
   <element name="mri:resourceConstraints" id="35.0">
-    <label>Resource constraints</label>
-    <description>Provides information about constraints which apply to the
-      resource(s)
+    <label>Restricciones del recurso</label>
+    <description>Proporciona información sobre las restricciones que se aplican a los recursos
     </description>
   </element>
   <element name="mri:resourceFormat" id="32.0">
@@ -4787,143 +4779,139 @@
     </description>
   </element>
   <element name="srv:parameters">
-    <label>Parameters</label>
-    <description>The parameters that are required for this interface
+    <label>Parametros</label>
+    <description>Los parametros que son requeridos por esta interface
     </description>
   </element>
   <element name="srv:SV_Parameter">
-    <label>Parameter</label>
-    <description>The parameters that are required for this interface
+    <label>Parametro</label>
+    <description>Los parametros que son requeridos por esta interface
     </description>
   </element>
   <element name="srv:direction">
-    <label>Direction</label>
+    <label>Direccion</label>
   </element>
   <element name="srv:valueType">
     <label>Value type</label>
   </element>
   <element name="srv:connectPoint">
-    <label>Connect Point</label>
+    <label>Punto de conexión</label>
     <description>Handle for accessing the service interface</description>
   </element>
   <element name="srv:dependsOn">
-    <label>Depends On</label>
-    <description>List of operations that must be completed immediately before
-      current operation
-      is invoked, structured as a list for capturing alternate predecessor paths
-      and sets for
-      capturing parallel predecessor paths
+    <label>Depende de</label>
+    <description>Lista de operaciones que deben completarse inmediatamente
+    antes de invocar la operación actual, estructurada como una lista para capturar
+    rutas predecesoras alternativas y conjuntos para capturar rutas predecesoras paralelas
     </description>
   </element>
   <element name="srv:providerName">
-    <label>Provider Name</label>
+    <label>Nombre del proveedor</label>
     <description>Identificador unico para esta organizacion</description>
   </element>
   <element name="srv:serviceContact">
-    <label>Service Contact</label>
-    <description>Information for contacting the service provider</description>
+    <label>Servicio de contacto</label>
+    <description>Informacion para contactar al proveedor del servicio</description>
   </element>
   <element name="srv:name">
-    <label>Name</label>
-    <description>The name, as used by the service for this chain or paramater
+    <label>Nombre</label>
+    <description>El nombre, como lo utilizado por el servicio para esta cadena o parametro
     </description>
   </element>
   <element name="srv:description">
-    <label>Description</label>
-    <description>Narrative explanation of the services in the chain and
-      resulting output or role
-      of the parameter
+    <label>Descripcion</label>
+    <description>Explicación narrativa de los servicios en la cadena
+      y el resultado de la función del parámetro
     </description>
   </element>
   <element name="srv:optionality">
-    <label>Optionality</label>
-    <description>Indication if the parameter is required</description>
+    <label>Opcionalidad</label>
+    <description>Indicacion si el parametro es requerido</description>
   </element>
   <element name="srv:repeatability">
-    <label>Repeatability</label>
-    <description>Indication if more than one value of the parameter may be
-      provided
+    <label>Repetibilidad</label>
+    <description>Indicacion si mas de un valore del parametro puede ser proporcionado
     </description>
   </element>
   <element name="srv:coupledResource">
-    <label>Coupled Resource</label>
-    <description>Details of services coupled with this one</description>
+    <label>Recurso acoplado</label>
+    <description>Detalles sobre el servicio acoplado con este</description>
     <inspireInfo>Optional in INSPIRE</inspireInfo>
   </element>
   <element name="srv:SV_CoupledResource">
-    <label>Coupled Resource</label>
-    <description>Details of services coupled with this one</description>
+    <label>Recurso aclopado</label>
+    <description>Detalles sobre el servicio acoplado con este</description>
   </element>
   <element name="srv:identifier">
-    <label>Identifier</label>
-    <description>Identifier of resource to which the operation applies
+    <label>Identificador</label>
+    <description>Identificador del recurso que se le aplicara a la operacion
     </description>
   </element>
   <element name="srv:couplingType">
-    <label>Coupling Type</label>
-    <description>Type of Coupling</description>
+    <label>Tipo de acoplamiento</label>
+    <description>Tipo de acoplamiento</description>
   </element>
   <element name="gex:extent">
     <label>Extension</label>
-    <description>Extension temporal y geogrfica el servicio</description>
+    <description>Extension temporal y geografica el servicio</description>
   </element>
   <element name="srv:keywords">
-    <label>Keywords</label>
-    <description>Keywords describing service</description>
+    <label>Palabras claves </label>
+    <description>Palabras claves que describen el servicio</description>
   </element>
   <element name="srv:operatedDataset">
-    <label>Operated dataset</label>
-    <description>Provides a reference to the resource on which the service operates. Note: For one resource either operated dataset or operates on may be used (not both).</description>
+    <label>Conjunto de datos operado</label>
+    <description>Proporciona una referencia para el recurso en el que el sistema opera
+    Nota: para un recurso, se puede usar un conjunto de datos operando o que pueden ser usados (no ambos)</description>
   </element>
   <element name="srv:profile">
-    <label>Profile</label>
-    <description>Profile to which the service adheres</description>
+    <label>Perfil </label>
+    <description>Perfil a la que se adhiere el servicio</description>
   </element>
   <element name="srv:serviceStandard">
-    <label>Service standard</label>
-    <description>Standard to which the service adheres</description>
+    <label>Servicio Estandar</label>
+    <description>Norma a la que se adhiere el servicio</description>
   </element>
   <element name="srv:distributedComputingPlatform">
-    <label>Distributed computing platform (DCP)</label>
+    <label>Plataforma de computación distribuida (DCP)</label>
     <description>DCP on which the operation has been implemented</description>
   </element>
   <element name="srv:parameter">
-    <label>Parameter</label>
+    <label>Parametro</label>
     <description></description>
   </element>
   <element name="srv:containsChain">
-    <label>Contains chain</label>
-    <description>Provide information about the chain applied by the service</description>
+    <label>Contiene cadena</label>
+    <description>Proporciona informacion acerca de la cadena aplicada por el servicio </description>
   </element>
   <element name="mrc:locale">
-    <label>Other language</label>
-    <description>Use this section to define other metadata language
-      (multilingual metadata).
+    <label>Otro Lenguaje</label>
+    <description>Usar esta seccion para definir otro lenguaje del metadato
+      (metadata multilenguaje).
     </description>
   </element>
   <element name="mri:describes">
-    <label>Describes</label>
-    <description>Describes</description>
+    <label>Describe</label>
+    <description>Describe</description>
   </element>
   <element name="mri:propertyType">
-    <label>PropertyType</label>
-    <description>PropertyType</description>
+    <label>Tipo de propiedad</label>
+    <description>Tipo de propiedad</description>
   </element>
   <element name="lan:PT_Locale">
     <label>Local</label>
     <description>Local</description>
   </element>
   <element name="lan:PT_LocaleContainer">
-    <label>Container of localised character strings</label>
-    <description>Container of localised character strings. NOTE It provides a
-      means to isolate the localised strings related to a given locale.
+    <label>Contenedor de cadenas de caracteres localizados</label>
+    <description>Contenedor de cadenas de caracteres localizados. NOTA:
+     Proporciona un medio para aislar las cadenas localizadas
+     relacionadas con una configuración regional determinada
     </description>
   </element>
   <element name="mri:featureType">
-    <label>Feature type</label>
-    <description>Subset of Tipo de caracteristicas from cited feature catalogue occurring
-      in
-      data
+    <label>Tipo de caracteristica</label>
+    <description>del citado catálogo de características que se produce en los datos
     </description>
   </element>
   <element name="mri:featureAttribute">
@@ -4979,7 +4967,7 @@
     <description>Codificacion de caracteres</description>
   </element>
   <element name="uuidref">
-    <label>Metadata uuid</label>
+    <label>Metadato uuid</label>
     <description>Identificador unico</description>
   </element>
   <element name="uom">
