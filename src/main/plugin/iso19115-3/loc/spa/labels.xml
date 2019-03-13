@@ -60,8 +60,8 @@
     <condition></condition>
   </element>
   <element name="msr:MD_PixelOrientationCode">
-    <label>código de orientacion el pixel</label>
-    <description> Punto en un pixel corresponde a un la localizacion de un pixel en la tierra
+    <label>Código de orientación el pixel</label>
+    <description> Punto en un pixel corresponde a un la localización de un pixel en la tierra
     </description>
     <condition></condition>
   </element>
@@ -69,9 +69,9 @@
     <label>Conjunto de caracteres del código</label>
     <description>Utilizar Registro IANA set de caracteres:
      http://www.iana.org/assignments/character-sets. 
-     Estos son los sets de nombres de caracteres oficiales 
+     Estos son los conjuntos de nombres de caracteres oficiales 
      que pueden ser usados en internet y pueden 
-     referirse en la documentacion de internet. Estos nombres fueron expresados 
+     referirse en la documentación de internet. Estos nombres fueron expresados 
      en ANSI_X3.4-1968 donde comunmente se llaman US-ASCII or simply ASCII.
     </description>
     <condition></condition>
@@ -92,7 +92,7 @@
     <condition></condition>
   </element>
   <element name="mac:operation">
-    <label>Operacion</label>
+    <label>Operación</label>
     <description></description>
     <condition></condition>
   </element>
@@ -107,7 +107,7 @@
     <condition></condition>
   </element>
   <element name="mac:objective">
-    <label>Objectivo</label>
+    <label>Objetivo</label>
     <description></description>
     <condition></condition>
   </element>
@@ -359,7 +359,7 @@
 
 
   <element name="mdb:metadataStandard" id="21.0">
-    <label>Metadato standar</label>
+    <label>Metadato Estandar</label>
     <description iso="true">La cita de la norma a que los metadatos se ajustan. 
      NOTA Las Citas del metadato estándar deben incluir identificado el año.
     </description>
@@ -371,7 +371,7 @@
   </element>
   <element name="mdb:MD_MetadataScoperd" id="39.0">
     <label>Ámbito de aplicación de recursos</label>
-    <description iso="true">Informacion acerca del Ámbito de aplicación de recursos
+    <description iso="true">Información acerca del Ámbito de aplicación de recursos
     </description>
     <condition></condition>
   </element>
@@ -386,21 +386,21 @@
     <condition>opcional</condition>
   </element>
   <element name="msr:MD_GridSpatialRepresentation" id="148.0">
-    <label>Representacion espacial de la cuadrícula</label>
+    <label>Representación espacial de la cuadrícula</label>
     <description iso="true">Información sobre objetos espaciales de la cuadrícula 
      en el recurso
     </description>
     <condition></condition>
   </element>
   <element name="msr:numberOfDimensions" id="149.0">
-    <label>Numero de dimensiones</label>
+    <label>Número de dimensiones</label>
     <description iso="true">Número de ejes independientes espacial y temporal
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="msr:axisDimensionProperties" id="150.0">
     <label>Propiedades de la dimensión del eje</label>
-    <description iso="true">Informacion acerca de las propiedades de ejes independientes espacial y temporal
+    <description iso="true">Información acerca de las propiedades de ejes independientes espacial y temporal
     </description>
     <condition>obligatorio</condition>
   </element>
@@ -472,15 +472,15 @@
   </element>
   <element name="msr:transformationDimensionDescription" id="159.0">
     <label>Descripción de dimensión de transformación</label>
-    <description iso="true">Descripción general de la transformacion
+    <description iso="true">Descripción general de la transformación
     </description>
     <condition>opcional</condition>
   </element>
   <element name="msr:transformationDimensionMapping" id="160.0">
     <label>Mapeo de dimensión de transformación</label>
-    <description iso="true">Informacion sobre los ejes de la cuadrícula son los ejes espaciales (del mapa)
+    <description iso="true">Información sobre los ejes de la cuadrícula son los ejes espaciales (del mapa)
     </description>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="msr:MD_Georeferenceable" id="161.0">
     <label>Georeferenciable</label>
@@ -493,18 +493,18 @@
   </element>
   <element name="msr:controlPointAvailability" id="162.0">
     <label>Punto de control disponible</label>
-    <description iso="true">Indicacion de si existe o no el punto de control      
+    <description iso="true">Indicación de si existe o no el punto de control      
   </description>
     <condition>obligatorio</condition>
   </element>
   <element name="msr:orientationParameterAvailability" id="163.0">
-    <label>Parámetro de Orientacion disponible</label>
-    <description iso="true">Indicacion de si esta o no disponible el parámetro de orientacion
+    <label>Parámetro de Orientación disponible</label>
+    <description iso="true">Indicación de si esta o no disponible el parámetro de orientación
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="msr:orientationParameterDescription" id="164.0">
-    <label>Descripción del parámetro de orientacion</label>
+    <label>Descripción del parámetro de orientación</label>
     <description iso="true">Descripción de parámetros usados para describir
     la orientación del sensor
     </description>
@@ -534,49 +534,49 @@
     <description iso="true">código con el cual se identifica el grado de complejidad 
     de las relaciones espaciales
     </description>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="msr:geometricObjects" id="169.0">
     <label>Objetos geograficos</label>
-    <description iso="true">Informacion acerca de los objetos geograficos usados en el recurso
+    <description iso="true">Información acerca de los objetos geograficos usados en el recurso
     </description>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="msr:MD_Dimension" id="170.0">
-    <label>Dimension</label>
+    <label>Dimensión</label>
     <description iso="true">Ejes de las propiedades</description>
     <condition></condition>
   </element>
   <element name="msr:dimensionName" id="171.0">
-    <label>Nombre de la dimension</label>
+    <label>Nombre de la dimensión</label>
     <description iso="true">Nombre de los ejes</description>
     <condition>obligatorio</condition>
   </element>
   <element name="msr:dimensionSize" id="172.0">
-    <label>Tamaño de la dimension</label>
-    <description iso="true">Numero de elementos a lo largo de los ejes</description>
+    <label>Tamaño de la dimensión</label>
+    <description iso="true">Número de elementos a lo largo de los ejes</description>
     <condition>obligatorio</condition>
   </element>
   <element name="msr:resolution" id="173.0">
-    <label>Resolucion</label>
-    <description iso="true">Grado de detalle en el dataset de la cuadrícula</description>
+    <label>Resolución</label>
+    <description iso="true">Grado de detalle en el conjunto de datos de la cuadrícula</description>
     <condition>optional</condition>
   </element>
   <element name="msr:dimensionTitle" id="174.0">
     <label>Título de la dimension</label>
     <description iso="true">realce/modificador del Nombre de la dimensión. EJEMPLO 
-     Nombredeladimension = "columna" Títulodeladimesion = "Longitud"
+     Nombredeladimensión = "columna" Títulodeladimesión = "Longitud"
     </description>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="msr:dimensionDescription" id="175.0">
-    <label>Descripción de la dimension</label>
+    <label>Descripción de la dimensión</label>
     <description iso="true">Descripción de los ejes</description>
     <condition>optional</condition>
   </element>
   <element name="msr:MD_GeometricObjects" id="176.0">
     <label>Objetos geograficos</label>
-    <description iso="true">Numero de objetos, listado por tipo de objeto geometrico,
+    <description iso="true">Número de objetos, listado por tipo de objeto geometrico,
       usado en el recurso
     </description>
     <condition></condition>
@@ -589,19 +589,19 @@
   </element>
   <element name="msr:geometricObjectCount" id="178.0">
     <label>Cuenta de objetos geométricos</label>
-    <description iso="true">Numero total de objetos de tipo punto o vector ocurriendo en el dataset.
+    <description iso="true">Número total de objetos de tipo punto o vector ocurriendo en el dataset.
     </description>
     <condition>opcional</condition>
   </element>
   <element name="msr:MD_ReferenceSystem" id="179.0">
     <label>Sistema de Referencia</label>
-    <description iso="true">Informacion acerca del Sistema de Referencia</description>
+    <description iso="true">Información acerca del Sistema de Referencia</description>
     <condition></condition>
   </element>
   <element name="msr:referenceSystemIdentifier" id="180.0">
     <label>Identificador del Sistema de Referencia</label>
     <description iso="true">identificador y código espacial del sistema de referencia:NOTA 
-    Consulte SC_CRS en ISO 19111 y ISO 19111-2 cuando la informacion del sistema de referencias de coordenadas 
+    Consulte SC_CRS en ISO 19111 y ISO 19111-2 cuando la información del sistema de referencias de coordenadas 
     no se da a través del identificador de sistema de referencia.
     EJEMPLO EPSG:4326
     </description>
@@ -612,10 +612,10 @@
     <description iso="true">Tipo de sistema de referencia usado. EJEMPLO
       compoundGeographic2DParametric
     </description>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="msr:MD_ContentInformation" id="182.0">
-    <label>Informacion del contenido</label>
+    <label>Información del contenido</label>
     <description iso="true">descripción del contenido de un recurso
     </description>
     <condition></condition>
@@ -656,7 +656,7 @@
     <condition>optional</condition>
   </element>
   <element name="msr:featureCatalogueCitation" id="188.0">
-    <label>Citacion de la característica del catálogo</label>
+    <label>Citación de la característica del catálogo</label>
     <description iso="true">referencia bibliográfica completa para uno o más catálogos 
     de característica externa
     </description>
@@ -670,8 +670,8 @@
     <condition></condition>
   </element>
   <element name="mrc:featureCatalogue" id="190.0">
-    <label>Feature catalogue</label>
-    <description iso="true">Tipo de características del catálogo, atribucion,
+    <label>Características del catálogo</label>
+    <description iso="true">Tipo de características del catálogo, atribución,
       operaciones, y relaciones usadas por el recurso.
     </description>
     <condition>obligatorio</condition>
@@ -697,7 +697,7 @@
     <label>Identificador</label>
   </element>
   <element name="gfc:inheritanceRelation">
-    <label>Relacion de herencia</label>
+    <label>Relación de herencia</label>
     <description></description>
   </element>
   <element name="gfc:globalProperty">
@@ -705,7 +705,7 @@
     <description></description>
   </element>
   <element name="gfc:designation">
-    <label>Designacion</label>
+    <label>Designación</label>
     <description></description>
   </element>
   <element name="gfc:subtype">
@@ -730,7 +730,7 @@
     <description></description>
   </element>
   <element name="mdq:DQ_StandaloneQualityReportInformation">
-    <label>Reporte de la informacion de calidad independiente </label>
+    <label>Reporte de la información de calidad independiente </label>
     <description></description>
   </element>
   <element name="mdq:reportReference">
@@ -746,7 +746,7 @@
     <description></description>
   </element>
   <element name="mdq:standaloneQualityReportDetails">
-    <label>Reporte de los detalles de la information de calidad</label>
+    <label>Reporte de los detalles de la información de calidad</label>
     <description></description>
   </element>
   <element name="mdq:measure">
@@ -754,7 +754,7 @@
     <description></description>
   </element>
   <element name="mdq:evaluationMethod">
-    <label>Metodo evaluativo</label>
+    <label>Método evaluativo</label>
     <description></description>
   </element>
   <element name="mdq:result">
@@ -770,7 +770,7 @@
     <description></description>
   </element>
   <element name="mdq:measureIdentification">
-    <label>Identificacion de medida</label>
+    <label>Identificación de medida</label>
     <description></description>
   </element>
   <element name="mdq:nameOfMeasure">
@@ -784,19 +784,19 @@
 
 
   <element name="mdq:DQ_DataInspection">
-    <label>Inspeccion de datos</label>
+    <label>Inspección de datos</label>
     <description></description>
   </element>
   <element name="mdq:DQ_AggregationDerivation">
-    <label>Derivacion de la agregacion</label>
+    <label>Derivación de la agregación</label>
     <description></description>
   </element>
   <element name="mdq:DQ_FullInspection">
-    <label>Inspeccion completa</label>
+    <label>Inspección completa</label>
     <description></description>
   </element>
   <element name="mdq:DQ_IndirectEvaluation">
-    <label>Evaluacion Indirecta</label>
+    <label>Evaluación Indirecta</label>
     <description></description>
   </element>
   <element name="mdq:DQ_SampleBasedInspection">
@@ -804,7 +804,7 @@
     <description></description>
   </element>
   <element name="mdq:DQ_EvaluationMethod">
-    <label>Metodo evaluativo</label>
+    <label>Método evaluativo</label>
     <description></description>
   </element>
   <element name="mdq:dateTime">
@@ -812,7 +812,7 @@
     <description></description>
   </element>
   <element name="mdq:evaluationMethodDescription">
-    <label>Descripción del Metodo evaluativo</label>
+    <label>Descripción del Método evaluativo</label>
     <description></description>
   </element>
   <element name="mdq:evaluationProcedure">
@@ -824,7 +824,7 @@
     <description></description>
   </element>
   <element name="mdq:evaluationMethodType">
-    <label>Tipo del Metodo evaluativo</label>
+    <label>Tipo del Método evaluativo</label>
     <description></description>
   </element>
   <element name="mdq:DQ_ConformanceResult">
@@ -879,7 +879,7 @@
     <description></description>
   </element>
   <element name="mdq:specification">
-    <label>Especificacion</label>
+    <label>Especificación</label>
     <description></description>
   </element>
   <element name="mdq:relatedElement">
@@ -890,7 +890,7 @@
 
   <element name="cit:CI_Individual" id="383.0">
     <label>Individual</label>
-    <description iso="true">Clase de información sobre la parte si la parte es un individuo
+    <description iso="true">Clase de información sobre la parte, si la parte es un individuo
     </description>
   </element>
   <element name="mdb:defaultLocale" id="17.0">
@@ -898,16 +898,16 @@
     <description iso="true">Lenguaje y caracter usado para documentar el 
     metadato
     </description>
-    <_condition>C / no definido por la codificación y no utilizar UTF-8?</_condition>
+    <_condition>C / ¿no definido por la codificación y no utilizar UTF-8?</_condition>
   </element>
   <element name="mdb:parentMetadata" id="18.0">
-    <label>Parent metadata</label>
+    <label>Metadato de los padres</label>
     <description iso="true">Identificación del registro de metadatos padre.
     </description>
     <_condition>condicional / si hay un objeto de nivel superior</_condition>
   </element>
   <element name="mdb:dateInfo" id="20.0">
-    <label>Iformacion de la fecha</label>
+    <label>Información de la fecha</label>
     <description iso="true">Fecha asociada con el metadato. NOTA
       Fecha de creación debe proporcionarse, otros pueden también ser proporcionados
     </description>
@@ -918,7 +918,7 @@
     <description iso="true">Referencia a metadatos alternativos, por ejemplo, Dublin Core, 
      FGDC o metadatos en un estándar que no es ISO para el mismo recurso
     </description>
-    <_condition>optional</_condition>
+    <_condition>opcional</_condition>
   </element>
   <element name="mdb:metadataLinkage" id="25.0">
     <label>Enlace del metadato</label>
@@ -931,12 +931,12 @@
     <description iso="true">Proporciona información  sobre cadenas de caracteres
     localizados utilizados alternativamente
     </description>
-    <_condition>optional</_condition>
+    <_condition>opcional</_condition>
   </element>
   <element name="mdb:resourceLineage" id="37.0">
     <label>Linaje de recursos</label>
-    <description iso="true">Información sobre la procedencia, fuente (s)
-    y / o proceso (s) de producción aplicados al recurso
+    <description iso="true">Información sobre la procedencia, fuente(s)
+    y / o proceso(s) de producción aplicados al recurso
     </description>
     <_condition>opcional</_condition>
   </element>
@@ -954,13 +954,13 @@
     </description>
   </element>
   <element name="mri:temporalResolution" id="51.0">
-    <label>Resolucion temporal</label>
+    <label>Resolución temporal</label>
     <description iso="true">Período temporal resoluble más pequeño en un recurso
     </description>
     <_condition>opcional</_condition>
   </element>
   <element name="mrl:additionalDocumentation">
-    <label>Documentacion adicional.</label>
+    <label>Documentación adicional.</label>
     <description/>
   </element>
   <element name="mrl:LI_Source">
@@ -969,12 +969,12 @@
   </element>
   <element name="mri:associatedResource" id="62.0">
     <label>Recursos asociados</label>
-    <description iso="true">Informacion de los recursos asociados</description>
+    <description iso="true">Información de los recursos asociados</description>
     <_condition>opcional</_condition>
   </element>
   <element name="mri:MD_AssociatedResource" id="62.0">
     <label>Recursos asociados</label>
-    <description iso="true">Informacion de los recursos asociados</description>
+    <description iso="true">Información de los recursos asociados</description>
     <_condition>opcional</_condition>
   </element>
   <element name="mri:defaultLocale" id="64.0">
@@ -1002,7 +1002,7 @@
     <description iso="true">URI del concepto en la ontología especificada 
      por el siguiente elemento (ontología) y etiquetada por el elemento anterior (className)
     </description>
-    <_condition>optional</_condition>
+    <_condition>opcional</_condition>
   </element>
   <element name="mri:className">
     <label>Nombre de la clase</label>
@@ -1011,7 +1011,7 @@
     </description>
   </element>
   <element name="mri:ontology" id="76.0">
-    <label>Ontologia</label>
+    <label>Ontología</label>
     <description iso="true">La referencia que vincula la clase de palabra clave a una conceptualización
      formal de un dominio de conocimiento para su uso en el procesamiento semántico.
      Las palabras clave en la lista de palabras clave asociadas MD_Keywords deben estar dentro del alcance de esta ontología.
@@ -1049,9 +1049,9 @@
   <element name="mmi:maintenanceDate" id="142.0"
            context="mmi:MD_MaintenanceInformation">
     <label>Fecha de mantenimiento</label>
-    <description iso="true">Informacion de la fecha asociada al mantenimiento del recurso
+    <description iso="true">Información de la fecha asociada al mantenimiento del recurso
     </description>
-    <_condition>optional</_condition>
+    <_condition>opcional</_condition>
   </element>
   <element name="mmi:maintenanceScope" id="144.0"
            context="mmi:MD_MaintenanceInformation">
@@ -1073,24 +1073,24 @@
     <description iso="true">Indicación de si o no el catálogo de características
        se incluye con el recurso.
     </description>
-    <_condition>optional</_condition>
+    <_condition>opcional</_condition>
   </element>
   <element name="mrc:attributeGroup" id="194.0">
     <label>Grupo de atributo</label>
     <description iso="true">Información sobre los grupos de atributos de
-       el recurso relacionados con el mismo tipo.
+       el recurso relacionados con el mismo tipo
     </description>
     <_condition>optional</_condition>
   </element>
   <element name="mrc:MD_AttributeGroup" id="207.0">
     <label>Grupo de atributo</label>
     <description iso="true">Clase de información sobre el tipo de contenido para grupos de
-       atributos para un MD_RangeDimension específico
+       atributos para un MD_RangeDimensión específico
     </description>
   </element>
   <element name="mrc:attribute" id="209.0">
     <label>Atributo</label>
-    <description iso="true">Informacion de un atributo del recurso
+    <description iso="true">Información de un atributo del recurso
     </description>
     <condition>opcional</condition>
   </element>
@@ -1110,7 +1110,7 @@
     <condition>optional</condition>
   </element>
   <element name="mrc:numberOfValues" id="221.0">
-    <label>Numero de valores</label>
+    <label>Número de valores</label>
     <description iso="true">El número de valores utilizados en la clasificación temática del recurso. 
     Ejemplo: el número de clases en una cobertura de tipo terrestre o el número de celdas
     con datos en otros tipos de coberturas.
@@ -1118,10 +1118,10 @@
     <condition>opcional</condition>
   </element>
   <element name="mrc:standardDeviation" id="222.0">
-    <label>Desviacion Estandar</label>
+    <label>Desviación Estandar</label>
     <description iso="true">Desviación estándar de los valores de los datos en cada dimensión incluidos en el recurso.
     </description>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="mrc:otherPropertyType" id="223.0">
     <label>Otro tipo de propiedades</label>
@@ -1158,8 +1158,8 @@
     <condition>opcional</condition>
   </element>
   <element name="mrd:formatSpecificationCitation" id="255.0">
-    <label>Formato especifico para la citacion</label>
-    <description iso="true">citation/URL para el formato de la especificacion
+    <label>Formato especifico para la Citación</label>
+    <description iso="true">citation/URL para el formato de la especificación
     </description>
     <condition>obligatorio</condition>
   </element>
@@ -1179,7 +1179,7 @@
   </element>
   <element name="mrd:transferFrequency" id="247.0">
     <label>Frecuencia de transferencia</label>
-    <description iso="true">Tasa de ocurrencia de la distribucion</description>
+    <description iso="true">Tasa de ocurrencia de la distribución</description>
     <_condition>opcional</_condition>
   </element>
   <element name="mrd:medium" id="258.0">
@@ -1207,8 +1207,8 @@
     <_condition>condicional / si el nombre no está documentado?</_condition>
   </element>
   <element name="gex:verticalExtent" id="354.0">
-    <label>Extension vertical</label>
-    <description iso="true">Componente de la extension vertical</description>
+    <label>Extensión vertical</label>
+    <description iso="true">Componente de la extensión vertical</description>
   </element>
   <element name="cit:individual" id="387.0">
     <label>Individual</label>
@@ -1216,13 +1216,13 @@
     <_condition></_condition>
   </element>
   <element name="cit:CI_Organisation" id="385.0">
-    <label>Organizacion</label>
+    <label>Organización</label>
     <description iso="true">Clase de información sobre la parte, si la misma es una organización
     </description>
   </element>
   <element name="cit:CI_Responsibility" id="376.0">
     <label>Responsabilidad</label>
-    <description iso="true">Clase de informacion acerca de la parte responsable y su rol 
+    <description iso="true">Clase de información acerca de la parte responsable y su rol 
     </description>
   </element>
   <element name="cit:role" id="377.0" context="cit:CI_Responsibility">
@@ -1232,18 +1232,18 @@
   </element>
   <element name="cit:party" id="379.0" context="cit:CI_Responsibility">
     <label>Parte</label>
-    <description iso="true">Informacion acerca de la parte</description>
+    <description iso="true">Información acerca de la parte</description>
   </element>
   <element name="cit:extent" id="378.0" context="cit:CI_Responsibility">
-    <label>Extension</label>
+    <label>Extensión</label>
     <description iso="true">Extensión espacial o temporal de la función</description>
   </element>
   <element name="lan:language" id="448.0">
     <label>Lenguaje</label>
-    <description iso="true">Designacion de la lengua local</description>
+    <description iso="true">Designación de la lengua local</description>
   </element>
   <element name="cit:presentationForm" id="369.0">
-    <label>Forma de presentacion</label>
+    <label>Forma de presentación</label>
     <description iso="true">Modo en que se representa el recurso
     </description>
     <help></help>
@@ -1251,7 +1251,7 @@
   </element>
   <element name="cit:series" id="370.0">
     <label>Series</label>
-    <description iso="true">Informacion acerca de series, o recursos agregados, 
+    <description iso="true">Información acerca de series, o recursos agregados, 
       de los cuales el recurso es parte
     </description>
     <help/>
@@ -1259,7 +1259,7 @@
   </element>
   <element name="cit:CI_Series" id="413.0">
     <label>Series</label>
-    <description iso="true">Clase de informacion acerca de series, 
+    <description iso="true">Clase de información acerca de series, 
     o recursos agregados, a la que pertenece un recurso
     </description>
     <help/>
@@ -1290,7 +1290,7 @@
     <condition/>
   </element>
   <element name="cit:number" id="418.0">
-    <label>Numero</label>
+    <label>Número</label>
     <description iso="true">Número de teléfono por el cual pueden comunicarse con personas 
     organización responsable o individuo
     </description>
@@ -1305,13 +1305,13 @@
   </element>
   <element name="cit:logo" id="386.0">
     <label>Logo</label>
-    <description iso="true">Gráfico identificativo de la organización.</description>
+    <description iso="true">Gráfico identificativo de la organización</description>
     <help/>
     <condition/>
   </element>
   <element name="cit:numberType" id="419.0">
-    <label>Tipo de numero</label>
-    <description iso="true">Tipo de numero telefonico</description>
+    <label>Tipo de número</label>
+    <description iso="true">Tipo de número telefonico</description>
     <help/>
     <condition/>
   </element>
@@ -1321,23 +1321,23 @@
     </description>
   </element>
   <element name="code" id="207.0" context="mri:MD_Identifier">
-    <label>código</label>
+    <label>Código</label>
     <description>Valor alfanumérico que identifica una instancia en el espacio de nombres
     </description>
     <help>Valor alfanumérico que identifica una instancia en el espacio de nombres</help>
   </element>
   <element name="code">
-    <label>código del Sistema</label>
-    <description>código. i.e. código EPSG.</description>
+    <label>Código del Sistema</label>
+    <description>código. ES decir, código EPSG</description>
   </element>
   <element name="code" id="547.0" context="mri:MD_CodeValue">
-    <label>código</label>
+    <label>Código</label>
     <description>Value code</description>
     <help>Valor del código (i.e. numerico)</help>
   </element>
   <element name="codeSpace" id="208.1">
     <label>Autoridad de referencia</label>
-    <description>Autoridad respinsable de la codificacion. i.e. EPSG</description>
+    <description>Autoridad respinsable de la codificación. i.e. EPSG</description>
   </element>
   <element name="cit:date" id="393.0">
     <label>Fecha</label>
@@ -1355,7 +1355,7 @@
   <element name="gco:DateTime" id="300.0" context="mrd:MD_StandardOrderProcess">
     <description>Formato como 2007-09-12T15:00:00 (YYYY-MM-DDTHH:mm:ss)
     </description>
-    <label>Planificacion disponible Fecha / Hora</label>
+    <label>Planificación disponible Fecha / Hora</label>
     <help> fecha y hora cuando el recurso estara disponible</help>
   </element>
   <element name="gco:DateTime">
@@ -1370,19 +1370,19 @@
   </element>
   <element name="gco:Measure" id="357.0" context="mri:EX_VerticalExtent">
     <label>Unidad de medida</label>
-    <description>Unidades verticales usadas para la informacion de la extension vertical. Ejemplos:
+    <description>Unidades verticales usadas para la información de la extensión vertical. Ejemplos:
       metros, pies, millimetros, hectopascales
     </description>
     <_condition>M</_condition>
   </element>
   <element name="cit:CI_Address" id="380.0">
-    <label>Direccion</label>
-    <description>Localizacion del responsable individual u organizacion
+    <label>Dirección</label>
+    <description>Localización del responsable individual u organización
     </description>
     <_condition>Usar obligación / condición del objeto de referencia</_condition>
   </element>
   <element name="cit:CI_Citation" id="361.0">
-    <label>Citacion</label>
+    <label>Citación</label>
     <description>Referencia estandarizada de recursos</description>
     <_condition>Usar obligación / condición del objeto de referencia</_condition>
   </element>
@@ -1439,12 +1439,12 @@
     </description>
   </element>
   <element name="mdq:DQ_CompletenessCommission" id="109.0">
-    <label>Comision de integridad</label>
+    <label>Comisión de integridad</label>
     <description>Exceso de datos presentes en el conjunto de datos, según lo descrito por el alcance
     </description>
   </element>
   <element name="mdq:DQ_CompletenessOmission" id="110.0">
-    <label>Omision de integridad</label>
+    <label>Omisión de integridad</label>
     <description>Datos ausentes del conjunto de datos, según lo descrito por el alcance
     </description>
   </element>
@@ -1508,8 +1508,8 @@
     </description>
   </element>
   <element name="mdq:DQ_TemporalValidity" id="123.0">
-    <label>Validacion temporal</label>
-    <description>Validacion de los datos especificados por el alcance con respecto al tiempo
+    <label>Validación temporal</label>
+    <description>Validación de los datos especificados por el alcance con respecto al tiempo
     </description>
   </element>
   <element name="mdq:DQ_ThematicClassificationCorrectness" id="125.0">
@@ -1519,21 +1519,21 @@
     </description>
   </element>
   <element name="mdq:DQ_TopologicalConsistency" id="115.0">
-    <label>Consistencia topologica</label>
+    <label>Consistencia topológica</label>
     <description>Corrección de las características topológicas explícitamente codificadas
      del conjunto de datos según lo descrito por el alcance
     </description>
   </element>
   <element name="gex:EX_BoundingPolygon" id="341.0">
-    <label>Poligono delimitador </label>
+    <label>Polígono delimitador </label>
     <description>Límite que encierra el conjunto de datos, 
      expresado como el conjunto cerrado de coordenadas (x, y) 
      del polígono (el último punto replica el primer punto)
     </description>
   </element>
   <element name="gex:EX_Extent" id="334.0">
-    <label>Extension</label>
-    <description>Informacion acerca de la extension espacial, vertical y temporal
+    <label>Extensión</label>
+    <description>Información acerca de la extensión espacial, vertical y temporal
   </element>
   <element name="gex:EX_GeographicBoundingBox" id="343.0">
     <label>Cuadro delimitador geografico</label>
@@ -1550,24 +1550,24 @@
     </description>
   </element>
   <element name="gex:EX_TemporalExtent" id="350.0">
-    <label>Extension temporal</label>
+    <label>Extensión temporal</label>
     <description>Período cubierto por el contenido del conjunto de datos</description>
   </element>
   <element name="gex:EX_VerticalExtent" id="354.0">
-    <label>Extension vertical</label>
+    <label>Extensión vertical</label>
     <description>Dominio vertical del conjuto de datos</description>
   </element>
   <element name="cit:ISBN" id="372.0">
     <label>ISBN</label>
-    <description>Numero de libro Estandar Internacional</description>
+    <description>Número de libro Estandar Internacional</description>
   </element>
   <element name="cit:ISSN" id="373.0">
     <label>ISSN</label>
-    <description>Numero de serie Estandar Internacional</description>
+    <description>Número de serie Estandar Internacional</description>
   </element>
   <element name="mrl:LI_Lineage" id="82.0">
     <label>Linaje</label>
-    <description>Informacion acerca de eventos o datos de origen usados en la construccion de los datos especificados por el alcance o 
+    <description>Información acerca de eventos o datos de origen usados en la construcción de los datos especificados por el alcance o 
      falta de conocimiento sobre el linaje
     </description>
   </element>
@@ -1575,19 +1575,19 @@
     <label>Paso del proceso</label>
     <description>Información sobre un evento en el proceso de creación para el da especificado por el alcance
     </description>
-    <help>informacion acerca de un evento transformacion en la vida del conjunto de datos
+    <help>información acerca de un evento transformación en la vida del conjunto de datos
      incluyendo el proceso utilizado para mantener el conjunto de datos    
     </help>
   </element>
   <element name="mri:LI_Source" id="92.0">
     <label>Fuente</label>
-    <description>Informacion acerca de la fuente de datos usado en la creacion de lo datos
+    <description>Información acerca de la fuente de datos usado en la creación de lo datos
      especificado por el alcance 
     </description>
   </element>
   <element name="mri:MD_AggregateInformation" id="66.1">
-    <label>Informacion agregada</label>
-    <description>Informacion agregada del conjutno de datos</description>
+    <label>Información agregada</label>
+    <description>Información agregada del conjutno de datos</description>
   </element>
   <element name="mas:MD_ApplicationSchemaInformation" id="320.0">
     <description>Información sobre el esquema de aplicación utilizado
@@ -1602,7 +1602,7 @@
     <help>Rango de longitudes de onda en el espectro electromagnético </help>
   </element>
   <element name="mcc:MD_BrowseGraphic" id="437.0">
-    <label>Examen del grafico</label>
+    <label>Exámen del gráfico</label>
     <description>Gráfico que proporciona una ilustración del conjunto de datos
      (debe incluir una leyenda para el gráfico)
     </description>
@@ -1618,11 +1618,11 @@
   </element>
   <element name="mrc:MD_CoverageDescription" id="239.0">
     <label>Descripción de la cobertura</label>
-    <description>Informacion acerca del conenido de la celda de la cuadrícula</description>
+    <description>Información acerca del conenido de la celda de la cuadrícula</description>
   </element>
   <element name="mri:MD_DataIdentification" id="36.0">
-    <label>Identificacion de datos</label>
-    <description>Informacion requerida para la identificacion del conjunto de datos</description>
+    <label>Identificación de datos</label>
+    <description>Información requerida para la identificación del conjunto de datos</description>
   </element>
   <element name="mrd:MD_DigitalTransferOptions" id="274.0">
     <label>Opciones de transferencia digital</label>
@@ -1631,12 +1631,12 @@
     </description>
   </element>
   <element name="mri:MD_Dimension" id="179.0">
-    <label>Dimension</label>
+    <label>Dimensión</label>
     <description>Ejes de las propiedades</description>
   </element>
   <element name="mrd:MD_Distribution" id="270.0">
-    <label>Distribucion</label>
-    <description>Informacion acerca del distribuidor de y opciones para obtener el recurso
+    <label>Distribución</label>
+    <description>Información acerca del distribuidor de y opciones para obtener el recurso
     </description>
   </element>
   <element name="mrd:MD_Distributor" id="279.0">
@@ -1651,7 +1651,7 @@
   </element>
   <element name="mrc:MD_FeatureCatalogueDescription" id="233.0">
     <label>Descripción de la característica del catálogo</label>
-    <description>Informacion que identifica a la característica del catalog o el esquema conceptual
+    <description>Información que identifica a la característica del catalog o el esquema conceptual
     </description>
   </element>
   <element name="mrd:MD_Format" id="284.0">
@@ -1663,7 +1663,7 @@
   </element>
   <element name="mri:MD_GeometricObjects" id="183.0">
     <label>Objetos geométricos</label>
-    <description>Numero de objetos, listados por el tipo de objeto geometrico, usado en el conjunto de datos
+    <description>Número de objetos, listados por el tipo de objeto geometrico, usado en el conjunto de datos
     </description>
   </element>
   <element name="mri:MD_Georectified" id="162.0">
@@ -1683,7 +1683,7 @@
     </description>
   </element>
   <element name="mri:MD_GridSpatialRepresentation" id="157.0">
-    <label>Representacion espacial de la cuadrícula</label>
+    <label>Representación espacial de la cuadrícula</label>
     <description>Información sobre los objetos espaciales de la cuadrícula en el conjunto de datos
     </description>
   </element>
@@ -1694,7 +1694,7 @@
   </element>
   <element name="mrc:MD_ImageDescription" id="243.0">
     <label>Descripción de la imagen</label>
-    <description>Information about an image's suitability for use</description>
+    <description>Información sobre la idoneidad de una imagen para su uso</description>
   </element>
   <element name="mri:MD_Keywords" id="52.0">
     <label>Palabras claves</label>
@@ -1706,13 +1706,13 @@
     </description>
   </element>
   <element name="mmi:MD_MaintenanceInformation" id="142.0">
-    <label>Mantenimiento de la informacion</label>
-    <description>Informacion acerca del alcance y la frecuencia de actualizacion
+    <label>Mantenimiento de la información</label>
+    <description>Información acerca del alcance y la frecuencia de actualización
     </description>
   </element>
   <element name="mrd:MD_Medium" id="291.0">
     <label>Medio</label>
-    <description>Informacion acerca del medio en el que el resucrso puede ser distribuido
+    <description>Información acerca del medio en el que el resucrso puede ser distribuido
     </description>
   </element>
   <element name="mdb:MD_Metadata" id="1.0">
@@ -1721,46 +1721,46 @@
     </description>
   </element>
   <element name="mri:MD_MetadataExtensionInformation" id="303.0">
-    <description>Informacion que describe las extensiones del metadato</description>
-    <label>Informacion de la extension del metadato</label>
+    <description>Información que describe las extensiones del metadato</description>
+    <label>Información de la extensión del metadato</label>
   </element>
   <element name="mpc:MD_PortrayalCatalogueReference" id="268.0">
-    <label>Referencia de la representacion del portal</label>
-    <description>Informacion que identifica a la referencia del catálogo utilizada
+    <label>Referencia de la representación del portal</label>
+    <description>Información que identifica a la referencia del catálogo utilizada
     </description>
   </element>
   <element name="mrc:MD_RangeDimension" id="256.0">
-    <label>Rango de dimension</label>
-    <description>Informacion en un rango de dimensión de un valor de medición de celda. 
+    <label>Rango de dimensión</label>
+    <description>Información en un rango de dimensión de un valor de medición de celda
     </description>
   </element>
   <element name="mrs:MD_ReferenceSystem" id="186.0">
     <label>Sistema de Referencia</label>
-    <description>Informacion acerca del Sistema de Referencia.</description>
-    <help>Informacion acerca del Sistema de Referencia</help>
+    <description>Información acerca del Sistema de Referencia</description>
+    <help>Información acerca del Sistema de Referencia</help>
   </element>
   <element name="mri:MD_RepresentativeFraction" id="56.0">
-    <label>Fraccion representativa</label>
+    <label>Fracción representativa</label>
     <description>Derivado de  Scale where MD_RepresentativeFraction.denominator= 1 /
       Scale.measure y Scale.targetUnits = Scale.sourceUnits
     </description>
   </element>
   <element name="mri:MD_Resolution" id="59.0">
-    <label>Resolucion</label>
+    <label>Resolución</label>
     <description>Nivel de detalle expresado como factor de escala o una distancia del suelo
     </description>
   </element>
   <element name="mcc:MD_ScopeDescription" id="149.0">
-    <label>Descipcion del alcance</label>
-    <description>Descripción de la clase de informacion cubierto por la informacion
+    <label>Descipción del alcance</label>
+    <description>Descripción de la clase de información cubierto por la información
     </description>
     <condition>Cualquier atributo, característica, instancia de la característica,
      instancia del atributo, conjunto de datos u otros deben ser promovidos 
     </condition>
   </element>
   <element name="mcc:MD_ScopeDescription_Type" id="149.0">
-    <label>Descipcion del alcance</label>
-    <description>Descripción de la clase de informacion cubierto por la informacion
+    <label>Descipción del alcance</label>
+    <description>Descripción de la clase de información cubierto por la información
     </description>
     <condition>Cualquier atributo, característica, instancia de la característica,
      instancia del atributo, conjunto de datos u otros deben ser promovidos
@@ -1773,7 +1773,7 @@
     </description>
   </element>
   <element name="mri:MD_ServiceIdentification" id="47.0">
-    <label>Service Identification</label>
+    <label>Servicio de identificación</label>
     <description>Identificación de las capacidades que un proveedor de servicios
       pone a disposición de un usuario del servicio a través de un conjunto de 
      interfaces que definen un comportamiento.
@@ -1781,32 +1781,29 @@
     </description>
   </element>
   <element name="mrd:MD_StandardOrderProcess" id="298.0">
-    <label>Standard order process</label>
-    <description>Common ways in which the resource may be obtained or received,
-      and related
-      instructions and fee information
+    <label>Proceso de pedido estándar</label>
+    <description>Formas comunes en que se puede obtener o recibir el
+     recurso e instrucciones relacionadas e información sobre tarifas
     </description>
   </element>
   <element name="mri:MD_Usage" id="62.0">
-    <label>Usage</label>
-    <description>Brief description of ways in which the resource(s) is/are
-      currently
-      used
+    <label>Uso</label>
+    <description>Breve descripción de las formas en que los recursos se utilizan actualmente
     </description>
   </element>
   <element name="mri:MD_VectorSpatialRepresentation" id="176.0">
-    <label>Representacion espacial del vector</label>
+    <label>Representación espacial del vector</label>
     <description>Información sobre los objetos espaciales del vector en el  dataset
     </description>
   </element>
   <element name="mri:PT_FreeText" id="601.0">
-    <label>Free text</label>
-    <description>Description of a multi-language free text metadata element
+    <label>Texto libre</label>
+    <description>Descripción de un multi-languaje de elemento de metadatos de texto libre
     </description>
   </element>
   <element name="mri:RS_Identifier" id="208.0">
-    <description>Identificador usado para el Informacion acerca del Sistema de Referencia</description>
-    <label>Identifier</label>
+    <description>Identificador usado para el Información acerca del Sistema de Referencia</description>
+    <label>Identificador</label>
   </element>
   <element name="mri:URL" id="608.0">
     <label>URL</label>
@@ -1814,236 +1811,221 @@
   </element>
   <element name="mri:abstract" id="25.0">
     <label>Resumen</label>
-    <description>Brief narrative summary of the content of the resource(s)
+    <description>Breve resumen narrativo del contenido de los recursos
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="mco:accessConstraints" id="70.0">
-    <label>Access constraints</label>
-    <description>Access constraints applied to assure the protection of privacy
-      or intellectual
-      property, and any special restrictions or limitations on obtaining the
-      resource
+    <label>Restricciones en el acceso</label>
+    <description>Se aplican restricciones de acceso para garantizar la protección
+     de la privacidad o la propiedad intelectual, y cualquier restricción o limitación
+     especial para obtener el recurso.
     </description>
   </element>
   <element name="mri:address" id="525.0" context="mri:CI_ResponsibleParty">
-    <label>Direccion</label>
-    <description>DIreccion de la parte responsable</description>
+    <label>Dirección</label>
+    <description>Dirección de la parte responsable</description>
   </element>
   <element name="cit:address" id="389.0" context="CI_Contact">
-    <label>Address</label>
-    <description>Physical and email address at which the organization or
-      individual may be
-      contacted
+    <label>Dirección</label>
+    <description>Dirección física y de correo electrónico a la que se puede contactar la organización o individuo
     </description>
   </element>
   <element name="cit:address" id="397.0">
-    <label>Adresse</label>
-    <description>Adresse physique et électronique à laquelle la personne ou
-      l'organisation responsable peut être contactée
+    <label>Dirección</label>
+    <description>Dirección física y electrónica a la que se puede contactar la persona u organización responsable
     </description>
-    <help>Adresse postale ou électronique d'un premier niveau de contact (par
-      exemple un secrétariat). Ces informations sont du type CI_Address et sont
-      gérées dans la classe du même nom.
+    <help>Dirección postal o de correo electrónico de un primer nivel de contacto
+    (por ejemplo, una secretaría). Esta información es del tipo CI_Dirección y 
+     se administra en la clase del mismo nombre.
     </help>
     <condition/>
 
   </element>
   <element name="cit:administrativeArea" id="391.0">
-    <label>Administrative area</label>
-    <description>State, province of the location</description>
+    <label>Área administrativa</label>
+    <description>Estado, provincia de la ubicación</description>
   </element>
   <element name="mri:aggregateDataSetIdentifier" id="66.3">
-    <label>Aggregate Datasetindentifier</label>
-    <description>Identification information about aggregate dataset
+    <label>Agrupador de datos agregados</label>
+    <description>Información de identificación sobre el conjunto de datos agregado
     </description>
   </element>
   <element name="mri:aggregateDataSetName" id="66.2">
-    <label>Aggregate Datasetname</label>
-    <description>Citation information about the aggregate dataset</description>
-    <_condition>C / if aggregateDataSetIdentifier not documented?</_condition>
+    <label>Nombre de conjunto de datos agregado</label>
+    <description>Información de citas sobre el conjunto de datos agregado</description>
+    <_condition>C / ¿Si el identificador de conjunto de datos agregado no está documentado?</_condition>
   </element>
   <element name="mri:aggregationInfo" id="35.1">
-    <label>Aggregation Information</label>
-    <description>Provides aggregate dataset information</description>
+    <label>Información de la agregación</label>
+    <description>Proporciona información de conjunto de datos agregados</description>
   </element>
   <element name="cit:alternateTitle" id="363.0">
-    <label>Alternate title</label>
-    <description>Short name or other language name by which the cited
-      information is known.
-      Example: "DCW" as an alternative title for "Digital Chart of the World
+    <label>Titulo alternativo</label>
+    <description>Nombre corto u otro nombre de idioma por el cual se conoce
+     la información citada. Ejemplo: "DCW" como título alternativo para
+     "Carta Digital del Mundo"
     </description>
   </element>
   <element name="mrd:amendmentNumber" id="287.0">
-    <label>Amendment number</label>
-    <description>Amendment number of the format version</description>
+    <label>Número de enmienda</label>
+    <description>Número de modificación de la versión en formato</description>
   </element>
   <element name="cit:applicationProfile" id="408.0">
-    <label>Application profile</label>
-    <description>Name of an application profile that can be used with the online
-      resource
+    <label>Perfil de aplicación</label>
+    <description>Nombre de un perfil de aplicación que se puede utilizar con el recurso en línea
     </description>
   </element>
   <element name="mdb:applicationSchemaInfo" id="21.0">
-    <label>Application schema info</label>
-    <description>Provides information about the conceptual schema of a dataset
+    <label>Información de la aplicación del esquema</label>
+    <description>Proporciona información acerca del esquema concenptural del conjunto de datos
     </description>
   </element>
   <element name="mri:associationType" id="66.4">
-    <label>Association Type</label>
-    <description>Association type of the aggregate dataset</description>
+    <label>Tipo de Asociación</label>
+    <description>Tipo de asociación del conjunto de datos agregado</description>
     <condition>obligatorio</condition>
   </element>
   <element name="mrc:attributeDescription" id="240.0">
-    <label>Attribute description</label>
-    <description>Description of the attribute described by the measurement
-      value
+    <label>Descripción del Atributo</label>
+    <description>Descripción del atributo descrito por el valor de medición
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="mcc:attributeInstances" id="153.0">
-    <label>Attribute instances</label>
-    <description>Attribute instances to which the information applies
+    <label>Instancia de los atributos</label>
+    <description>Instancia de los atributos a quien la información aplica
     </description>
     <condition/>
   </element>
   <element name="mcc:attributes" id="150.0">
-    <label>Attributes</label>
-    <description>Attributes to which the information applies</description>
+    <label>Atributos</label>
+    <description>Atributos a quien la información aplica</description>
     <condition/>
   </element>
   <element name="mcc:authority" id="432.0">
-    <label>Authority</label>
-    <description>Person or party responsible for maintenance of the namespace
+    <label>Autoridad</label>
+    <description>Persona o parte responsable para el mantenimiento del espacio nombre
     </description>
   </element>
   <element name="mri:axisDimensionProperties" id="159.0">
     <label>Propiedades de las dimensiones de los ejes</label>
-    <description>Information about spatial-temporal Ejes de las propiedades
+    <description>Información sobre ejes espaciales-temporales de las propiedades
     </description>
     <_condition>M</_condition>
   </element>
   <element name="mrc:bitsPerValue" id="264.0">
-    <label>Bits per value</label>
-    <description>Maximum number of significant bits in the uncompressed
-      representation for the
-      value in each band of each pixel
+    <label>Valor por Bits</label>
+    <description>Número máximo de bits significativos en la representación
+     sin comprimir para el valor en cada banda de cada píxel
     </description>
   </element>
   <element name="mrc:cameraCalibrationInformationAvailability"
            id="253.0">
-    <label>Camera calibration information availability</label>
-    <description>Indication of whether or not constants are available which
-      allow for camera
-      calibration corrections
+    <label>Disponibilidad de información de calibración de la cámara</label>
+    <description>Indicación de si hay o no constantes disponibles
+     que permitan correcciones de calibración de la cámara
     </description>
   </element>
   <element name="mri:cellGeometry" id="160.0">
-    <label>Cell geometry</label>
-    <description>Identification of grid data as point or cell</description>
+    <label>Geometría de celda</label>
+    <description>Identificación de datos de grilla como punto o celda</description>
     <condition>obligatorio</condition>
   </element>
   <element name="mri:centerPoint" id="166.0">
-    <label>Center point</label>
-    <description>Earth location in the coordinate system defined by the Spatial
-      Reference System
-      and the grid coordinate of the cell halfway between opposite ends of the
-      grid in the
-      spatial dimensions
+    <label>Punto central</label>
+    <description>Ubicación de la tierra en el sistema de coordenadas definido por el espacial.
+     Sistema de referencia y la coordenada de la cuadrícula de la celda a medio camino entre
+     los extremos opuestos de la cuadrícula en las dimensiones espaciales
     </description>
   </element>
   <element name="mri:characterSet" id="4.0" context="mri:MD_Metadata">
-    <label>Character set</label>
-    <description>Full name of the character coding standard used for the
-      metadata
-      set
+    <label>Conjunto de caracteres</label>
+    <description>Nombre completo del estándar de codificación
+      de caracteres utilizado para el conjunto de metadatos
     </description>
-    <condition>conditional</condition>
-    <_condition>conditional / ISO/IEC 10646-1 not used and not defined by
-      encoding?
+    <condition>condicional</condition>
+    <_condition>condicional / ISO/IEC 10646-1 ¿No se utiliza y no se define por codificación?
     </_condition>
   </element>
   <element name="mri:characterSet" id="40.0"
            context="mri:MD_DataIdentification">
-    <label>Character set</label>
-    <description>Full name of the character coding standard used for the
-      dataset
+    <label>Conjunto de caracteres</label>
+    <description>Nombre completo del estándar de codificación
+      de caracteres utilizado para el conjunto de metadatos
     </description>
-    <_condition>Conditional / ISO 10646-1 not used?</_condition>
+    <_condition>Condicional / ISO 10646-1 no utilizado?</_condition>
   </element>
   <element name="mri:characterSet" id="4.0">
-    <label>Character set</label>
-    <description>Full name of the character coding standard used for the
-      metadata
-      set
+    <label>Conjunto de caracteres</label>
+    <description>Nombre completo del estándar de codificación
+      de caracteres utilizado para el conjunto de metadatos
     </description>
-    <condition>conditional</condition>
+    <condition>condicional</condition>
   </element>
   <element name="mri:checkPointAvailability" id="163.0">
-    <description>Indication of whether or not geographic position points are
-      available to test
-      the accuracy of the georeferenced grid data
+    <description>Indicación de si los puntos de posición geográfica
+     están disponibles o no para probar la precisión de los datos de cuadrícula georreferenciados
     </description>
     <condition>obligatorio</condition>
-    <label>Checkpoint Availability</label>
+    <label>Control de la Disponibilidad</label>
   </element>
   <element name="mri:checkPointDescription" id="164.0">
-    <description>Description of geographic position points used to test the
-      accuracy of the
-      georeferenced grid data
+    <description>Descripción de los puntos de posición geográfica
+     utilizados para probar la precisión de los datos de cuadrícula georreferenciados
     </description>
-    <condition>conditional</condition>
-    <label>Checkpoint Description</label>
+    <condition>condicional</condition>
+    <label>Control de la Descripción</label>
   </element>
   <element name="mri:citation" id="24.0" context="mri:MD_Identification">
-    <label>Citation</label>
-    <description>Citation data for the resource(s)</description>
+    <label>Citación</label>
+    <description>Citation de los datos para el (los) recurso (s)</description>
   </element>
   <element name="mri:citation" id="576.0" context="mri:MD_Authority">
-    <label>Citation</label>
-    <description>Citation which belongs to the authority</description>
+    <label>Citación</label>
+    <description>Citación que pertenece a la autoridad</description>
   </element>
   <element name="mri:citation" id="581.0" context="mri:MD_Thesaurus">
-    <label>Citation</label>
-    <description>Citation of the thesaurus</description>
+    <label>Citación</label>
+    <description>Citación del Thesaurus</description>
   </element>
   <element name="mri:citation" id="581.0">
-    <label>Citation</label>
-    <description>Citation data for the resource(s)</description>
+    <label>Citación</label>
+    <description>Citación de los datos para el (los) recurso (s)</description>
   </element>
   <element name="cit:citedResponsibleParty" id="367.0">
     <label>Parte responsable citada</label>
-    <description>Nombre e informacion de la posicion para un individuo u organizacion,
-     esta es responsable del recuerso   
+    <description>Nombre e información de la posición para un individuo u organización,
+     esta es responsable del recurso   
     </description>
   </element>
   <element name="cit:city" id="390.0">
     <label>Ciudad</label>
-    <description>Ciudad de la locacion</description>
+    <description>Ciudad de la locación</description>
   </element>
   <element name="mco:classification" id="74.0">
     <condition>obligatorio</condition>
-    <label>Clasificacion</label>
+    <label>Clasificación</label>
     <description>Nombre de las restricciones de manejo en el recurso o metadato.
     </description>
   </element>
   <element name="mco:classificationSystem" id="76.0">
-    <label>Clasificacion del sistema</label>
-    <description>Nombre de la clasificaion del sistema</description>
+    <label>Clasificación del sistema</label>
+    <description>Nombre de la clasificación del sistema</description>
   </element>
   <element name="mri:cloudCoverPercentage" id="248.0">
     <label>Porcentaje de cobertura de nubes</label>
-    <description>Area del conjunto de datos oculto por las nubes, expresado como un porcentaje de la extensión espacial
+    <description>Área del conjunto de datos oculto por las nubes, expresado como un porcentaje de la extensión espacial
     </description>
   </element>
   <element name="mri:code" id="207.0" context="mri:RS_Identifier">
-    <label>Unique resource identifier</label>
-    <description>Alphanumeric value identifying an instance in the namespace
+    <label>Identificador de recurso único</label>
+    <description>Valor alfanumérico que identifica una instancia en el espacio de nombres
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="mcc:code" id="433.0">
-    <label>código</label>
+    <label>Código</label>
     <description>Valor alfanumérico que identifica una instancia en el espacio de nombres
     </description
     <description iso="true">Valor alfanumérico que identifica una instancia 
@@ -2053,17 +2035,16 @@
     <condition>obligatorio</condition>
   </element>
   <element name="mri:code" id="547.0" context="mri:MD_CodeValue">
-    <label>Code</label>
-    <description>Value code</description>
-    <help>Value code (i.e. numeric)</help>
+    <label>Código</label>
+    <description>Código de valor</description>
+    <help>Código de valor (es decir, numérico)</help>
   </element>
   <element name="mcc:codeSpace" id="434.0">
-    <label>Codespace</label>
-    <description>Name or identifier of the person or organization responsible
-      for
-      namespace
+    <label>Espacio de código</label>
+    <description>Nombre o identificador de la persona u organización responsable
+     para espacio de nombres
     </description>
-    <description iso="true">Identifier or namespace in which the code is valid
+    <description iso="true">Identificador o espacio de nombres en el que el código es válido
     </description>
     <helper>
       <option value="EPSG">EPSG</option>
@@ -2071,140 +2052,132 @@
   </element>
   <element name="mri:collectiveTitle" id="371.0">
     <label>Título colectivo</label>
-    <description>Common title with holdings note. NOTE title identifies elements
-      of a series
-      collectively, combined with information about what volumes are available
-      at the source
-      cited
+    <description>Título común con nota de tenencias.
+      El título de la NOTA identifica el elemento de
+      una serie de manera colectiva, combinado con 
+     información sobre qué volúmenes están disponibles en la fuente citada
     </description>
-    <help>This field is used to name the Basic Geodata as defined in the GeoIV
-      Annex I, as it is possible that there are more than 1 "physical" datasets
-      assigned to 1 legal entry. E.g.: Entry no. 47 "Geophysikalisches
-      Kartenwerk" consists of 3 datasets "Geophysikalische Karten 1:500000",
-      "Geophysikalische Spezialkarten" and "Gravimetrischer Atlas 1:100000"
+    <help>Este campo se usa para nombrar los Geodatos Básicos como se define en el Anexo I de GeoIV,
+    ya que es posible que haya más de 1 conjuntos de datos "físicos" asignados a 1 entrada legal.
+    Por ejemplo: entrada no. 47 "Geophysikalisches
+    Kartenwerk" consiste de tres conjuntos de datos "Geophysikalische Karten 1:500000",
+    "Geophysikalische Spezialkarten" y "Gravimetrischer Atlas 1:100000"
     </help>
   </element>
   <element name="mrc:complianceCode" id="234.0">
     <label>Código de cumplimiento</label>
-    <description>Indication of whether or not the cited feature catalogue
-      complies with ISO
-      19110
+    <description>Indicación de si el catálogo de características
+     citado cumple o no con la norma ISO 19110
     </description>
   </element>
   <element name="mri:compressionGenerationQuantity" id="250.0">
-    <label>Compression generation quantity</label>
-    <description>Count of the number the number of lossy compression cycles
-      performed on the
-      image
+    <label>Cantidad de generación de compresión</label>
+    <description>Cuenta del número, el número de ciclos de compresión
+      con pérdida realizados en la imagen
     </description>
   </element>
   <element name="mri:condition" id="312.0">
-    <label>Condition</label>
-    <description>Condition under which the extended element is obligatorio
+    <label>Condición</label>
+    <description>Condición bajo el cuál el elemento extendido es obligatorio
     </description>
   </element>
   <element name="mas:constraintLanguage" id="323.0">
-    <label>Constraint language</label>
-    <description>Formal language used in Application Schema</description>
+    <label>Lenguaje de restricción</label>
+    <description>Lenguaje formal utilizado en el esquema de aplicación</description>
     <condition>obligatorio</condition>
   </element>
   <element name="mdb:contact" id="19.0">
     <condition>obligatorio</condition>
     <label>Contacto</label>
-    <description>Parte responsable de la informacion del matadato</description>
+    <description>Parte responsable de la información del matadato</description>
   </element>
   <element name="mmi:contact" id="148.1"
            context="mmi:MD_MaintenanceInformation">
-    <label>Contact</label>
-    <description>Identification of, and means of communication with, person(s)
-      and
-      organization(s) with responsability for maintaining the metadata
+    <label>Contacto</label>
+    <description>Identificación de, y medios de comunicación con, persona (s)
+      y organizaciones con la responsabilidad de mantener los metadatos.
     </description>
   </element>
   <element name="mri:contact" id="8.0">
-    <label>Metadata author</label>
-    <description>Party responsible for the metadata information</description>
+    <label>Autor del Metadato</label>
+    <description>Parte responsable de la información del matadato</description>
     <condition>obligatorio</condition>
   </element>
   <element name="cit:contactInfo" id="378.0">
-    <description>Direccion de la parte responsable</description>
-    <label>Informacion de contacto</label>
+    <description>Dirección de la parte responsable</description>
+    <label>Información de contacto</label>
   </element>
   <element name="cit:contactInstructions" id="392.0">
-    <label>Contact instructions</label>
-    <description>Supplemental instructions on how or when to contact the
-      individual or
-      organization
+    <label>Instricciones de contacto</label>
+    <description>Instrucciones adicionales sobre cómo o cuándo contactar a la persona u organización
     </description>
   </element>
   <element name="mdb:contentInfo" id="16.0">
-    <description>Provides information about the feature catalogue and describes
-      the coverage and
-      image data characteristics
+    <description>Proporciona información acerca de la caracteristica del catálogo y 
+      describe las características de cobertura y datos de imagen
     </description>
-    <label>Content Information</label>
+    <label>Información del contenido</label>
   </element>
   <element name="mrc:contentType" id="241.0">
-    <label>Content type</label>
-    <description>Type of information represented by the cell value</description>
+    <label>Tipo de contenido</label>
+    <description>Tipo de información representada por el valor de celda</description>
     <condition>obligatorio</condition>
   </element>
   <element name="mri:controlPointAvailability" id="171.0">
-    <description>Indication of whether or not control point(s) exists
+    <description>Indicación de si existen o no puntos de control
     </description>
     <condition>obligatorio</condition>
-    <label>Controlpoint Availability</label>
+    <label>Disponibilidad de Control de puntos</label>
   </element>
   <element name="mri:cornerPoints" id="165.0">
     <label>Puntos de esquina</label>
-    <description>Earth location in the coordinate system defined by the Spatial
-      Reference System
-      and the grid coordinate of the cells at opposite ends of grid coverage
-      along two
-      diagonals in the grid spatial dimensions. There are four corner points in
-      a georectified
-      grid; at least two corner points along one diagonal are required
+    <description>Ubicación de la Tierra en el sistema de coordenadas
+     definido por el Sistema de referencia espacial y la coordenada
+     de la cuadrícula de las celdas en los extremos opuestos de la cobertura
+     de la cuadrícula a lo largo de dos diagonales en las dimensiones espaciales
+     de la cuadrícula. Hay cuatro puntos de esquina en una cuadrícula georectificada;
+     Se requieren al menos dos puntos de esquina a lo largo de una diagonal
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="cit:country" id="393.0">
-    <label>Country</label>
-    <description>Country of the physical address</description>
+    <label>País</label>
+    <description>País de la dirección física</description>
   </element>
   <element name="mri:country" id="508.0" context="mri:MD_Legislation">
-    <label>Country</label>
-    <description>Country in which the law was issued</description>
+    <label>País</label>
+    <description>País en que se dictó la ley</description>
   </element>
   <element name="mri:country" id="605.0" context="PT_Group">
-    <label>Country</label>
-    <description>Country of language used for documenting a plain text
+    <label>País</label>
+    <description>País del lenguaje utilizado para documentar un texto plano
     </description>
   </element>
   <element name="lan:country" id="449.0">
-    <label>Country</label>
-    <description>Designation of the specific country of the locale language
+    <label>País</label>
+    <description>Designación del país especifico de la lengua local
     </description>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="lan:country" id="449.0" context="lan:PT_Locale">
-    <label>Pais</label>
+    <label>País</label>
     <description>Designación del país de la lengua local
     </description>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="cit:country" id="393.0" context="cit:CI_Address">
-    <label>Country</label>
-    <description>Country of the address</description>
-    <condition>optional</condition>
+    <label>País</label>
+    <description>País de la dirección</description>
+    <condition>opcional</condition>
   </element>
   <element name="mri:credit" id="46.0">
-    <label>Credit</label>
-    <description>Recognition of those who contributed to the resource(s)
+    <label>Crédito</label>
+    <description>Reconocimiento de quienes contribuyeron al recurso(s)
     </description>
   </element>
   <element name="mdb:dataQualityInfo" id="18.0">
-    <label>Data quality info</label>
-    <description>Provides overall assessment of quality of a resource(s)
+    <label>Información de calidad de datos</label>
+    <description>Proporciona una evaluación general de la calidad de un recurso(s)
     </description>
   </element>
   <element name="mcc:URI">
@@ -2212,108 +2185,101 @@
     <description></description>
   </element>
   <element name="mri:dataSetURI" id="11.1">
-    <label>Dataset URI</label>
-    <description>Uniformed Resource Identifier (URI) of the dataset to which the
-      metadata
-      applies
+    <label>Conjunto de datos URI</label>
+    <description>Identificador de Recursos Uniformado (URI) del conjunto de datos al que
+      metadatos se aplica
     </description>
-    <help>Uniformed Resource Identifier (URI) of the dataset to which the
-      metadata applies. This
-      link refers direct to the machine-readable dataset.
+    <help>Identificador de Recursos Uniformado (URI) del conjunto de datos al que
+      metadatos se aplica. Este enlace se refiere directamente al conjunto de datos
+      legible por máquina.
     </help>
   </element>
   <element name="mri:dataType" id="313.0">
-    <label>Data type</label>
-    <description>Code which identifies the kind of valueprovidedeprovided in the
-      extended
-      element
+    <label>Tipo de dato</label>
+    <description>Código que identifica el tipo de valor provisto provisto en el elemento extendido
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="mcc:dataset" id="154.0">
-    <description>Dataset to which the information applies</description>
+    <description>Conjunto de datos a los que se aplica la información</description>
     <condition/>
-    <label>Dataset</label>
+    <label>Conjunto de datos</label>
   </element>
   <element name="mri:date" id="570.0">
-    <label>Date</label>
-    <description>Reference date for the cited resource (YYYY-MM-DD)
+    <label>Fecha</label>
+    <description>Referencia de la fecha para el recurso citado (YYYY-MM-DD)
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="mri:date" id="570.0" context="mri:MD_Revision">
-    <label>Date of last update</label>
-    <description>Date of last update</description>
+    <label>Fecha de la última actualización</label>
+    <description>Fecha de la siguiente actualización</description>
   </element>
   <element name="mri:date" id="144.0" context="mri:MD_MaintenanceInformation">
-    <label>Date of next update</label>
-    <description>Scheduled revision date for resource</description>
+    <label>Fecha de la siguiente actualización</label>
+    <description>Fecha de revisión programada del recurso</description>
   </element>
   <element name="cit:date" id="364.0" context="cit:CI_Citation">
     <condition>obligatorio</condition>
-    <label>Date</label>
-    <description>Reference date for the cited resource</description>
+    <label>Fecha</label>
+    <description>Referencia de la fecha para el recurso citado</description>
     <_condition>M</_condition>
   </element>
   <element name="cit:date" id="403.0" context="cit:CI_Date">
     <condition>obligatorio</condition>
-    <label>Date</label>
-    <description>Reference date for the cited resource</description>
+    <label>Fecha</label>
+    <description>Referencia de la fecha para el recurso citado</description>
     <_condition>M</_condition>
   </element>
   <element name="mri:dateOfNextUpdate" id="144.0">
-    <label>Date of next update</label>
-    <description>Scheduled revision date for resource (YYYY-MM-DD)</description>
+    <label>Fecha de la siguiente actualización</label>
+    <description>Fecha de revisión programada del recurso (YYYY-MM-DD)</description>
   </element>
   <element name="mri:dateStamp" id="9.0">
-    <label>Date stamp</label>
-    <description>Date that the metadata was created (YYYY-MM-DDThh:mm:ss)
+    <label>Sello de la fecha</label>
+    <description>Fecha donde el matadato fue creado (YYYY-MM-DDThh:mm:ss)
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="mri:dateTime" id="89.0">
-    <label>Date / Time</label>
-    <description>Date and time or range of date and time on or over which the
-      process step
-      occurred (YYYY-MM-DDThh:mm:ss)
+    <label>Fecha/Hora</label>
+    <description>Fecha y tiempo o un rango de fecha y tiempo sobre el cual el paso del proceso ocurrió
+     (YYYY-MM-DDThh:mm:ss)
     </description>
   </element>
   <element name="mri:dateTime" id="89.0" context="LI_ProcessStep">
-    <description>Date and time or range of date and time on or over which the
-      process step
-      occurred (YYYY-MM-DDThh:mm:ss)
+    <description>Fecha y tiempo o un rango de fecha y tiempo sobre el cual el paso del proceso ocurrió
+     (YYYY-MM-DDThh:mm:ss)
     </description>
-    <label>Date / Time</label>
+    <label>Fecha/Hora</label>
   </element>
   <element name="mri:dateTime" id="106.0" context="mri:DQ_Element">
-    <label>Date / Time</label>
-    <description>Date or range of dates on which a data quality measure was
-      applied
+    <label>Fecha/Hora</label>
+    <description>Dato o rango de datos en los que la medida de calidad fue aplicada
     </description>
   </element>
   <element name="cit:dateType" id="404.0">
-    <label>Date type</label>
-    <description>Event used for reference date</description>
+    <label>Tipo de dato</label>
+    <description>Evento usado para la referencia del dato</description>
     <condition>obligatorio</condition>
   </element>
   <element name="mri:definition" id="310.0">
-    <label>Definition</label>
-    <description>Definition of the extended element</description>
+    <label>Definicion</label>
+    <description>Definicion del elemento extendido</description>
     <condition>obligatorio</condition>
   </element>
   <element name="cit:deliveryPoint" id="389.0">
-    <label>Delivery point</label>
-    <description>Address line for the location (as described in ISO 11180, annex
-      A)
+    <label>Punto de entrega</label>
+    <description>Línea de dirección para la ubicación (como se describe en ISO 11180, anexo A)
     </description>
-    <description iso="true">Address line for the location. Example Street number
-      and name, Suite number, etc.
+    <description iso="true">Línea de dirección para la ubicación. Ejemplo de número de calle
+      y nombre, número de suite, etc
     </description>
   </element>
   <element name="mri:denominator" id="57.0">
-    <label>Denominator</label>
-    <description>The number below the line in a vulgar fraction</description>
-    <condition>add either a denominator or a distance</condition>
+    <label>Denominador</label>
+    <description>El número debajo de la línea en una fracción vulgar</description>
+    <condition>agrega un denominador o una distancia</condition>
     <helper>
       <option value="5000">1:5´000</option>
       <option value="10000">1:10´000</option>
@@ -2328,22 +2294,22 @@
 
   </element>
   <element name="mrd:density" id="293.0">
-    <label>Density</label>
-    <description>Density at which the data is recorded</description>
+    <label>Densidad</label>
+    <description>Densidad en la que se registran los datos</description>
   </element>
   <element name="mrd:densityUnits" id="294.0">
-    <label>Density units</label>
-    <description>Units of measure for the recording density</description>
-    <condition>conditional</condition>
+    <label>Unidades de densidad</label>
+    <description>Unidades de medida para la densidad de grabación</description>
+    <condition>condicional</condition>
   </element>
   <element name="mrc:description">
-    <label>Description</label>
-    <description>Description of the attribute</description>
+    <label>Descripción</label>
+    <description>Descripción del atributo</description>
     <help></help>
     <condition>optional</condition>
   </element>
   <element name="mrd:description" id="238.0" context="mrd:MD_Distribution">
-    <label>Description</label>
+    <label>Descripción</label>
     <description>Breve descripción de un conjunto de opciones de distribuidores
     </description>
     <help></help>
@@ -2356,53 +2322,51 @@
   </element>
   <element name="mcc:description" id="436.0">
     <label>Descripción</label>
-    <description iso="true">natural language description of the meaning of the
-      code value. EXAMPLE For codeSpace = EPSG, code= 4326, description =
+    <description iso="true">descipción del lenguaje natural del significado del valor del código
+     Ejemplo para codeSpace = For codeSpace = EPSG, código= 4326, descripción =
       WGS-84.
     </description>
   </element>
   <element name="mri:description" id="561.0" context="mri:MD_AbstractClass">
-    <label>Description</label>
-    <description>Description</description>
+    <label>Descripción</label>
+    <description>Descripción</description>
   </element>
   <element name="mri:description" id="87.0" context="LI_ProcessStep">
     <condition>obligatorio</condition>
-    <label>Description</label>
-    <description>Description of the event, including related parameters or
-      tolerances
+    <label>Descripción</label>
+    <description>Descripción del evento, incluyendo los parametros relativos o tolerancia
     </description>
   </element>
   <element name="mrl:description" id="93.0" context="mrl:LI_Source">
-    <label>Description</label>
-    <description>Detailed description of the level of the source data
+    <label>Descripción</label>
+    <description>Detalle de la descripción del nivel de los datos del recurso
     </description>
-    <_condition>Condicional /Extension del recurso no previsto?</_condition>
+    <_condition>Condicional /Extensión del recurso no previsto?</_condition>
   </element>
   <element name="mrl:sourceMetadata" id="133.0">
-    <label>Source Metadata</label>
-    <description>Reference to metadata for the source</description>
+    <label>Metadatos de origen</label>
+    <description>Referencia a metadatos para la fuente</description>
     <help></help>
     <condition>optional</condition>
   </element>
   <element name="mrl:sourceSpatialResolution" id="133.0">
-    <label>Resolucion espacial de la fuente  </label>
-    <description>spatial resolution expressed as a scale factor, a distance, an
-      angle or a level of detail
+    <label>Resolución espacial de la fuente</label>
+    <description>Resolución espacial expresada en factor de escala, una distancia, un ngulo o un nivel de detalle
     </description>
     <help></help>
-    <condition>octional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="mrl:sourceStep" id="133.0" context="mrl:LI_Source">
-    <label>Source step</label>
-    <description>Information about a process step in which this source was
-      used
+    <label>Paso del recurso</label>
+    <description>Información sobre un paso del proceso en el que esta fuente fue
+      utilizado
     </description>
     <help></help>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="gex:description" id="335.0" context="gex:EX_Extent">
     <label>Descripción</label>
-    <description>Extension espacial y temporal para la referida al objeto 
+    <description>Extensión espacial y temporal para la referida al objeto 
     </description>
     <_condition>Condicional / Elemento geografico y elemento temporal
      y elemento vertical no documentado? 
@@ -2410,91 +2374,91 @@
   </element>
   <element name="cit:description" id="410.0" context="cit:CI_OnlineResource">
     <label>Descripción</label>
-    <description>Descripción detallada del texto de lo que es / hace el recurso en línea
+    <description>Descripción detallada del texto de lo que es/hace el recurso en línea
     </description>
   </element>
   <element name="mri:description" id="541.0" context="mri:MD_CodeDomain">
-    <label>Description</label>
-    <description>Description of the code domain</description>
+    <label>Descripción</label>
+    <description>Descripción del código de dominio</description>
   </element>
   <element name="mri:description" id="549.0" context="mri:MD_CodeValue">
-    <label>Value description</label>
-    <description>Description of the value</description>
+    <label>Descripción del valor</label>
+    <description>Descripción del valor</description>
   </element>
   <element name="mri:description" id="552.0" context="mri:MD_Attribute">
-    <label>Description</label>
-    <description>Attribute description</description>
+    <label>Descripción</label>
+    <description>Descripción del atributo</description>
   </element>
   <element name="lan:localisedString" id="456.0"
            context="lan:PT_LocaleContainer">
-    <label>Localised string</label>
-    <description iso="true">Provides the list of localised character string
-      expressing the linguistic translation of a set of textual information in a
-      given locale
+    <label>Cadena localizada</label>
+    <description iso="true">Proporciona la lista de cadenas de caracteres localizadas 
+    que expresan la traducción lingüística de un conjunto de información textual 
+     en una configuración regional determinada
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="lan:LocalisedCharacterString" id="445.0">
-    <label>Localised character string</label>
-    <description iso="true">Expression of a free text in a given locale
+    <label>Cadena de caracteres localizados</label>
+    <description iso="true">Expresión de un texto libre en una localidad dada
     </description>
     <condition></condition>
   </element>
   <element name="lan:locale" context="lan:LocalisedCharacterString" id="446.0">
     <label>Local</label>
-    <description iso="true">defines the locale in which the value (sequence of
-      characters) of the localised character string is expressed
+    <description iso="true">define la configuración regional
+      en la que se expresa el valor (secuencia de caracteres)
+      de la cadena de caracteres localizada
     </description>
     <condition>obligatorio</condition>
   </element>
 
 
   <element name="lan:date" id="454.0" context="lan:PT_LocaleContainer">
-    <label>Date</label>
-    <description iso="true">Date of creation or revision of the locale
-      container
+    <label>Fecha</label>
+    <description iso="true">Fecha de creación o revision de el contenedor local
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="mri:description" id="557.0" context="mri:MD_Role">
-    <label>Description</label>
-    <description>Role description</description>
+    <label>Descripción</label>
+    <description>Descripción del roll</description>
   </element>
   <element name="lan:description" id="238.0" context="lan:PT_LocaleContainer">
-    <label>Description</label>
-    <description>Designation of the locale language</description>
+    <label>Descripción</label>
+    <description>Designación de un lenguaje local</description>
     <help></help>
     <condition>obligatorio</condition>
   </element>
   <element name="mri:descriptiveKeywords" id="33.0">
-    <label>Descriptive keywords</label>
-    <description>Provides category keywords, their type, and reference source
+    <label>Descripción de palabra clave</label>
+    <description>Proporciona palabras clave de categoría, su tipo y fuente de referencia
     </description>
   </element>
   <element name="mri:descriptor" id="258.0">
     <label>Descriptor</label>
-    <description>Description of the range of a cell measurement value
+    <description>Descripción del rango de un valor de medición de celda
     </description>
   </element>
   <element name="mri:dimension" id="242.0">
-    <label>Dimension</label>
-    <description>Information on the dimensions of the cell measurement value
+    <label>Dimensión</label>
+    <description>Información en las dimensiones del valor de medición de celda
     </description>
   </element>
   <element name="mri:dimensionName" id="180.0">
-    <label>Nombre de la dimension</label>
+    <label>Nombre de la dimensión</label>
     <description>Nombre de los ejes</description>
     <condition>obligatorio</condition>
   </element>
   <element name="mri:dimensionSize" id="181.0">
-    <label>Tamaño de la dimension</label>
-    <description>Numero de elementos a lo largo de los ejes</description>
+    <label>Tamaño de la dimensión</label>
+    <description>Número de elementos a lo largo de los ejes</description>
     <condition>obligatorio</condition>
   </element>
   <element name="mri:distance" id="61.0" context="mri:MD_Resolution">
-    <label>Distance</label>
-    <description>Ground sample distance</description>
-    <condition>Provide a distance if no equivalent Scale is documented
+    <label>Distancia</label>
+    <description>Distancia de la muestra de tierra</description>
+    <condition>Proporcionar una distancia si no se documenta  una escala equivalente
     </condition>
     <helper relAtt="uom">
       <option value="0.10" title="cm">10 cm</option>
@@ -2514,7 +2478,7 @@
   <element name="mdb:distributionInfo" id="17.0">
     <description>Proporciona información sobre el distribuidor y las opciones para obtener el (los) recurso(s)
     </description>
-    <label>Informacion del distribuidor</label>
+    <label>Información del distribuidor</label>
   </element>
   <element name="mrd:distributionOrderProcess" id="281.0">
     <label>Distribución/ Orden del proceso</label>
@@ -2524,42 +2488,41 @@
   </element>
   <element name="mrd:distributor" id="272.0">
     <label>Distribuidor</label>
-    <description>Proporciona informacion acerca del distribuidor</description>
+    <description>Proporciona información acerca del distribuidor</description>
   </element>
   <element name="mrd:distributorContact" id="280.0">
     <label>Contacto del distribuidor</label>
-    <description>Parte de quien se puede obtener el recurso. Esta lista no necesita ser exhaustiva     
+    <description>Parte de quién se puede obtener el recurso. Esta lista no necesita ser exhaustiva     
     </description>
     <condition>obligatorio</condition>
   </element>
   <element name="mrd:distributorFormat" id="282.0">
-    <label>Distributor format</label>
-    <description>Provides information about the format used by the distributor
+    <label>Formato de distribuidor</label>
+    <description>Proporciona información sobre el formato utilizado por el distribuidor
     </description>
-    <condition>conditional</condition>
+    <condition>condicional</condition>
   </element>
   <element name="mrd:distributorTransferOptions" id="283.0">
-    <label>Distributor transfer options</label>
-    <description>Provides information about the technical means and media used
-      by the
-      distributor
+    <label>Opciones de transferencia del distribuidor</label>
+    <description>Proporciona información sobre los medios técnicos y
+     los medios utilizados por el distribuidor
     </description>
   </element>
   <element name="mri:domainCode" id="309.0">
-    <label>Domain code</label>
-    <description>Three digit code assigned to the extended element</description>
-    <_condition>Conditional / is dataType ?codelistElement??</_condition>
+    <label>Código de dominio</label>
+    <description>Código de tres dígitos asignado al elemento extendido</description>
+    <_condition>Condicional / es un tipo de dato? elemenentolistadecódigo??</_condition>
   </element>
   <element name="mri:domainOfValidity" id="197.0">
     <label>Dominio de validez</label>
-    <description>Range which is valid for the referencesystem</description>
+    <description>Rango válido para el sistema de referencia</description>
   </element>
   <element name="mri:domainValue" id="315.0">
-    <label>Domain value</label>
-    <description>Valid values that can be assigned to the extended element
+    <label>Valor del dominio</label>
+    <description>Valores válidos que pueden asignarse al elemento extendido
     </description>
-    <_condition>Conditonal / dataType not 'codelist', 'enumeration' or
-      'codelistElement'
+    <_condition>Condicional / tipo de dato no 'listadecódigo', 'enumeración' o
+      'elemenentolistadecódigo'
     </_condition>
   </element>
   <element name="mri:eastBoundLongitude" id="345.0">
@@ -2602,10 +2565,10 @@
   </element>
   <element name="mri:evaluationMethodDescription" id="104.0">
     <label>Descripción del método evaluativo</label>
-    <description>Descripción del metodo evaluativo</description>
+    <description>Descripción del método evaluativo</description>
   </element>
   <element name="mri:evaluationMethodType" id="103.0">
-    <label>Metodo evaluativo</label>
+    <label>Método evaluativo</label>
     <description>Tipo de método utilizado para evaluar la calidad del conjunto de datos
     </description>
   </element>
@@ -2791,7 +2754,7 @@
   </element>
   <element name="mri:geometricObjects" id="178.0">
     <label>Objetos Geométricos</label>
-    <description> Información acerca de los objetos geométricos usados en el dataset
+    <description> Información acerca de los objetos geométricos usados en el conjunto de los datos
     </description>
   </element>
   <element name="mri:georeferencedParameters" id="174.0">
@@ -3031,7 +2994,7 @@
     </description>
   </element>
   <element name="mri:metadataStandardVersion" id="11.0">
-    <label>Metadata standard versión</label>
+    <label>Versión Estandar del Metadato </label>
     <description>Versión (perfil) del matadato estandar utilizado</description>
   </element>
   <element name="mrc:minValue" id="261.0">
@@ -3059,7 +3022,7 @@
     <label>Nombre</label>
     <description>Nombre del medio en el que se puede recibir el recurso
     </description>
-    <condition>optional</condition>
+    <condition>opcional</condition>
   </element>
   <element name="mrd:identifier" context="mrd:MD_Medium" id="267.0">
     <label>Identificador</label>
@@ -3587,7 +3550,7 @@
     <condition>condicional</condition>
   </element>
   <element name="cit:page" id="416.0">
-    <label>Pagina</label>
+    <label>Página</label>
     <description>Detalles sobre en qué páginas de la publicación se publicó el artículo.
     </description>
   </element>
@@ -3818,7 +3781,7 @@
   <element name="mco:disseminationConstraints" id="117.0"
            context="mco:MD_Releasability">
     <label>Restricciones de difusión</label>
-    <description iso="true">Component in determining releasability</description>
+    <description iso="true">Componente en la determinación de la liberabilidad</description>
     <help></help>
     <condition/>
   </element>
@@ -4369,7 +4332,7 @@
   </element>
   <element name="mri:version" id="286.0">
     <label>Version</label>
-    <description>Version of the format (date, number, etc.)</description>
+    <description>Versión del formato (fecha, número, etc.)</description>
     <condition>obligatorio</condition>
   </element>
   <element name="gex:verticalElement" id="338.0">
@@ -4420,11 +4383,8 @@
 
   <element name="gml:Polygon">
     <label>Polígono</label>
-    <description>A gml:Polygon is a special surface that is defined by a single
-      surface patch.
-      The boundary of this patch is coplanar and the polygon uses planar
-      interpolation in its
-      interior.
+    <description>A gml:Polígono es una superficie especial que es definido por una superficie simple de parches.
+       El límite de este parche es coplanar y el polígono utiliza la interpolación plana en su interior
     </description>
   </element>
 
@@ -4436,7 +4396,7 @@
   </element>
 
   <element name="gml:LineString">
-    <label>Linae</label>
+    <label>Linea</label>
     <description>Un gml: LineString es una curva especial que consiste en un solo segmento con interpolación lineal.
      Está definido por dos o más pares de coordenadas, con interpolación lineal entre ellas.
     </description>
@@ -5043,7 +5003,7 @@
     <label>Abreviacion de ejes</label>
   </element>
   <element name="gml:axisDirection">
-    <label>Ejes de direccion</label>
+    <label>Ejes de dirección</label>
   </element>
   <element name="gml:maximumValue">
     <label>Valor máximo</label>
